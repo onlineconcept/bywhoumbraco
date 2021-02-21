@@ -1,0 +1,15 @@
+<div class="carousel">
+    <template v-for="item in items">
+        <transition name="slide-fade"
+                    enter-active-class="animated flash"
+                    leave-active-class="animated fadeOutUp">
+            <carousel-item v-on:hover="hoverImage" :item="item" :key="item.id" v-bind:class="{active: selectedSlide === item.id}"></carousel-item>
+        </transition>
+    </template>
+    <div class="carousel-left-nav">
+        <v-icon @click="prevSlide">arrow_back_ios</v-icon>
+    </div>
+    <div class="carousel-right-nav">
+        <v-icon @click="nextSlide">arrow_forward_ios</v-icon>
+    </div>
+</div>

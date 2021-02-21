@@ -1,0 +1,11 @@
+{
+  "ConnectionStrings": {
+    "ShopConnection": "Data Source=skyvision.dk;Initial Catalog=bywho;User ID=bywho;Password=Klaus4bso!"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

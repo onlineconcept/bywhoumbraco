@@ -1,0 +1,133 @@
+﻿@inject ResourceHelper rh
+<!DOCTYPE html>
+<html>
+<head>
+    @*<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="529a80b3-502e-4e38-8aef-0f4976a0a04d" data-blockingmode="auto" type="text/javascript"></script>*@
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"  />
+    <title>@ViewData["Title"]</title>
+    <meta name="description" content="@ViewData["description"]" />
+    <meta name="keywords" content="@ViewData["keywords"]" />
+    <meta property="og:title" content="@ViewData["Title"]">
+    <meta property="og:site_name" content="By Who">
+    <meta property="og:url" content="@("https://"+ Context.Request.Host.Value + Context.Request.Path)">
+    <meta property="og:description" content="@ViewData["description"]">
+    <meta property="og:type" content="@ViewData["contentType"]">
+    <meta property="og:image" content="@ViewData["image"]">
+    <environment include="Development">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
+        <link href="~/css/styles.css?v=1" rel="stylesheet" />
+    </environment>
+    <environment exclude="Development">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
+        <link href="~/css/styles.css?v=1" rel="stylesheet" />
+    </environment> 
+    @RenderSection("Styles",false);
+    <script id="CookieDeclaration" src="https://consent.cookiebot.com/529a80b3-502e-4e38-8aef-0f4976a0a04d/cd.js" type="text/javascript" async></script>
+</head>
+<body>
+    <div oc-app :labels="@(await rh.GetAllResources())" v-cloak>
+        <page-wrap >
+
+
+            <div class="top-space"></div>
+
+            <v-layout row wrap>
+
+                @RenderBody()
+
+
+            </v-layout>
+            <form action="https://bywho.us10.list-manage.com/subscribe/post?u=9470aaf0b8c4cccbff597fe67&amp;id=22dfe21cfb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <section class="newsletter">
+
+                    <h2>@(await rh.GetResource("Newsletter.Title"))</h2>
+
+                    <input class="email-signup-field" type="email" name="email" required placeholder="@(await rh.GetResource("Newletter.Placeholder"))" />
+                    <v-btn class="email-signup-button" type="submit">@(await rh.GetResource("Newsletter.Button"))</v-btn>
+
+                </section>
+            </form>
+
+
+            <v-footer dark height="auto" class="footer">
+
+                <v-layout wrap>
+                    <v-flex lg5 xs12>
+                        <h2>@(await rh.GetResource("FooterText.Title"))</h2>
+                        <p>@(await rh.GetResource("FooterText.Main"))</p>
+                    </v-flex>
+                    <v-flex lg2 xs12 offset-lg2>
+                        <h2>Betaling</h2>
+                        <div>
+                            <img src="https://bywho.dk/Content/images/ico1.png" alt="image description" height="25">
+                            <img src="https://bywho.dk/Content/images/ico2.png" alt="image description" height="25">
+                            <img src="https://bywho.dk/Content/images/ico3.png" alt="image description" height="25">
+                            <img src="https://bywho.dk/Content/images/ico4.png" alt="image description" height="25">
+                        </div>
+                        <div>
+                            <img src="https://bywho.dk/content/images/mp.png" style="width:100%; margin-left: -35px;" />
+                        </div>
+                        
+                    </v-flex>
+                    <v-flex lg2 xs12 offset-lg1>
+                        <h2>Kontakt</h2>
+
+                        <h4>By Who</h4>
+                        <p class="contact-info">
+                            <a href="mailto:info@bywho.dk">info@bywho.dk</a><br />
+                            Tlf. +45 23708261<br /><br />
+                            <a href="#">Sitemap</a><br />
+                            <a href="#">Handelsbetingelser</a><br />
+                    </v-flex>
+                </v-layout>
+
+            </v-footer>
+
+            <basket></basket>
+        </page-wrap>
+
+    </div>
+
+    <environment include="Development">
+
+
+        <script src="~/js/bundle.js?v=1"></script>
+
+    </environment>
+    <environment exclude="Development">
+
+
+        <script src="~/js/bundle.js?v=1"></script>
+    </environment>
+    @*<!--Start of Zopim Live Chat Script-->
+        <script type="text/javascript">
+            window.$zopim || (function (d, s) {
+                var z = $zopim = function (c) {
+                    z._.push(c)
+                }, $ = z.s =
+                    d.createElement(s), e = d.getElementsByTagName(s)[0]; z.set = function (o) {
+                        z.set.
+                            _.push(o)
+                    }; z._ = []; z.set._ = []; $.async = !0; $.setAttribute('charset', 'utf-8');
+                $.src = '//v2.zopim.com/?2t6WfHbdLnUVXAf8KhZgYGJ1aR5Zb4b1'; z.t = +new Date; $.
+                    type = 'text/javascript'; e.parentNode.insertBefore($, e)
+            })(document, 'script');
+        </script>
+        <!--End of Zopim Live Chat Script-->*@
+
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5ecb6c0d8ee2956d73a441be/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

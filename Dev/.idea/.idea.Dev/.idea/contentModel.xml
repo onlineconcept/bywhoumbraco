@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="BusinessLayer" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BusinessLayer.csproj" t="IncludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="IAdminService.cs" t="Include" />
+          <e p="IAuthService.cs" t="Include" />
+          <e p="ICartService.cs" t="Include" />
+          <e p="IOrderService.cs" t="Include" />
+          <e p="IPageService.cs" t="Include" />
+          <e p="ISizeService.cs" t="Include" />
+          <e p="IStyleService.cs" t="Include" />
+        </e>
+        <e p="IServiceCollectionExtension.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="AdminService.cs" t="Include" />
+          <e p="AuthService.cs" t="Include" />
+          <e p="CartService.cs" t="Include" />
+          <e p="OrderService.cs" t="Include" />
+          <e p="PageService.cs" t="Include" />
+          <e p="SizeService.cs" t="Include" />
+          <e p="StyleService.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="BusinessLayer.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DataLayer" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="BaseContext.cs" t="Include" />
+          <e p="ShopContext.cs" t="Include" />
+          <e p="ShopContextFactory.cs" t="Include" />
+        </e>
+        <e p="DataLayer.csproj" t="IncludeRecursive" />
+        <e p="DTO" t="Include">
+          <e p="AddToCartDTO.cs" t="Include" />
+          <e p="Auth" t="Include">
+            <e p="RegisterAndLoginDTO.cs" t="Include" />
+          </e>
+          <e p="EpayResponse.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IAuthRepository.cs" t="Include" />
+          <e p="ICartRepository.cs" t="Include" />
+          <e p="ICustomerRepository.cs" t="Include" />
+          <e p="IOrderRepository.cs" t="Include" />
+          <e p="IPageRepository.cs" t="Include" />
+          <e p="ISizeRepository.cs" t="Include" />
+          <e p="IStyleRepository.cs" t="Include" />
+        </e>
+        <e p="IServiceCollectionExtension.cs" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20190530173605_Init.cs" t="Include" />
+          <e p="20190530173605_Init.Designer.cs" t="Include" />
+          <e p="20190530185034_Sortorder added to Styles.cs" t="Include" />
+          <e p="20190530185034_Sortorder added to Styles.Designer.cs" t="Include" />
+          <e p="20190530193249_Style Seo and more.cs" t="Include" />
+          <e p="20190530193249_Style Seo and more.Designer.cs" t="Include" />
+          <e p="20190530193629_Style SENAME.cs" t="Include" />
+          <e p="20190530193629_Style SENAME.Designer.cs" t="Include" />
+          <e p="20190530201930_HasText added to style.cs" t="Include" />
+          <e p="20190530201930_HasText added to style.Designer.cs" t="Include" />
+          <e p="20190929005603_SubId.cs" t="Include" />
+          <e p="20190929005603_SubId.Designer.cs" t="Include" />
+          <e p="20191020222306_Quantity Added.cs" t="Include" />
+          <e p="20191020222306_Quantity Added.Designer.cs" t="Include" />
+          <e p="20200406070208_User added.cs" t="Include" />
+          <e p="20200406070208_User added.Designer.cs" t="Include" />
+          <e p="20200406123907_poster added to style.cs" t="Include" />
+          <e p="20200406123907_poster added to style.Designer.cs" t="Include" />
+          <e p="ShopContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="CartLine.cs" t="Include" />
+          <e p="Customer.cs" t="Include" />
+          <e p="DiscountCode.cs" t="Include" />
+          <e p="Giftcard.cs" t="Include" />
+          <e p="GiftCardUsageHistory.cs" t="Include" />
+          <e p="Order.cs" t="Include" />
+          <e p="OrderLine.cs" t="Include" />
+          <e p="Picture.cs" t="Include" />
+          <e p="Size.cs" t="Include" />
+          <e p="Style.cs" t="Include" />
+          <e p="Topic.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="DataLayer.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="AuthRepository.cs" t="Include" />
+          <e p="CartRepository.cs" t="Include" />
+          <e p="CustomerRepository.cs" t="Include" />
+          <e p="OrderRepository.cs" t="Include" />
+          <e p="PageRepository.cs" t="Include" />
+          <e p="SizeRepository.cs" t="Include" />
+          <e p="StyleRepository.cs" t="Include" />
+        </e>
+        <e p="System" t="Include">
+          <e p="DecimalPrecisionAttribute 2.cs" t="Include" />
+          <e p="DecimalPrecisionAttribute.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Dev" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="appsettings.zip" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Configuration" t="Include">
+          <e p="EPaySettings.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="AdminController.cs" t="Include" />
+          <e p="AuthController.cs" t="Include" />
+          <e p="CartController.cs" t="Include" />
+          <e p="CheckoutController.cs" t="Include" />
+          <e p="FrontendController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="PageController.cs" t="Include" />
+          <e p="SizeController.cs" t="Include" />
+          <e p="StyleController.cs" t="Include" />
+          <e p="WallArtController.cs" t="Include" />
+        </e>
+        <e p="Dev.csproj" t="IncludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="AppSettings.cs" t="Include" />
+          <e p="PasswordHelper.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ErrorViewModel.cs" t="Include" />
+          <e p="PageViewModel.cs" t="Include" />
+          <e p="StyleViewModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Dev.AssemblyInfo.cs" t="Include" />
+              <e p="Dev.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+          <e p="PublishProfiles" t="Include">
+            <e p="FolderProfile.pubxml" t="Include" />
+            <e p="FolderProfile1.pubxml" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Admin" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="Orders.cshtml" t="Include" />
+            <e p="Styles.cshtml" t="Include" />
+          </e>
+          <e p="Auth" t="Include">
+            <e p="Login.cshtml" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+          </e>
+          <e p="Cart" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Checkout" t="Include">
+            <e p="Complete.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Payment.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="Privacy.cshtml" t="Include" />
+          </e>
+          <e p="Page" t="Include">
+            <e p="Page.cshtml" t="Include" />
+            <e p="Page.cshtml.cs" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_admin.cshtml" t="Include" />
+            <e p="_CheckoutLayout.cshtml" t="Include" />
+            <e p="_CookieConsentPartial.cshtml" t="Include" />
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="Style" t="Include">
+            <e p="Index.cshtml" t="Include" />
+            <e p="Style.cshtml" t="Include" />
+          </e>
+          <e p="WallArt" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="styles.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="images" t="Include">
+            <e p="0563f94e-aa0c-4845-bc66-4204546502ca.png" t="Include" />
+            <e p="06aaf870-f484-45ea-8a33-0a930156a5c2.png" t="Include" />
+            <e p="08b7c59b-0299-406b-a6af-dac48905ed59.png" t="Include" />
+            <e p="0ab59697-9c0b-4bc8-bfea-4ec7f3f05812.png" t="Include" />
+            <e p="0c85fd89-7455-4a18-9f26-c2be6a00c7e8.png" t="Include" />
+            <e p="12311fd3-93c8-4507-843a-4e6231dde880.png" t="Include" />
+            <e p="12f1e7fc-c19a-4f95-8c59-3b42f769410a.png" t="Include" />
+            <e p="177279db-5b1a-4af7-952d-9812a6662f45.png" t="Include" />
+            <e p="1d045fd3-d11a-4dcb-8352-c3ca8553c58c.png" t="Include" />
+            <e p="2ae98888-bc8b-4020-9747-d452d402cc65.png" t="Include" />
+            <e p="2ba36114-06a0-410c-873e-0c5425b1982e.png" t="Include" />
+            <e p="2d67dbab-7bc7-4583-a141-5f21a0074369.png" t="Include" />
+            <e p="2e220093-67b5-4a3f-896c-afcf944a52f7.png" t="Include" />
+            <e p="2ecde062-bbf2-4c90-8200-0536d68cb23f.png" t="Include" />
+            <e p="357ed77a-00f2-4a8c-81ab-dc2c49c1d5f6.png" t="Include" />
+            <e p="37a2286d-89c1-4b01-91bf-61cbc2b89186.png" t="Include" />
+            <e p="50abc914-7aed-4765-ab01-45ad8c80c90f.png" t="Include" />
+            <e p="57eb86c8-bc0e-4003-9593-3b3298aa3293.png" t="Include" />
+            <e p="63ae9597-ce63-415b-9d7d-6da582bdf564.png" t="Include" />
+            <e p="6dffcf83-c4dc-4225-a227-55ae15c04419.png" t="Include" />
+            <e p="710b2db5-aacd-4687-a698-e451c5bcc2f7.png" t="Include" />
+            <e p="78738c67-8da8-4289-b947-1c85cb41904e.png" t="Include" />
+            <e p="7b67ee3b-1f93-4e29-bfa9-cb96f1482818.png" t="Include" />
+            <e p="810fc5f5-7e8f-48e5-ad58-7d65e3ada3b3.png" t="Include" />
+            <e p="85ac45fc-9f34-47a2-9aa3-b4b051375c2c.png" t="Include" />
+            <e p="8900f509-3783-4af2-a92d-75114d35ffec.png" t="Include" />
+            <e p="943f98c4-0d56-4beb-aed3-cab566a11f3a.png" t="Include" />
+            <e p="94ac800c-25d9-418f-bfbc-10dd7e457a4e.png" t="Include" />
+            <e p="9d4351e4-1560-44b5-b1ee-240b33ee6fe3.png" t="Include" />
+            <e p="af9874d1-9561-4e59-8267-1bcf4236e820.png" t="Include" />
+            <e p="b9cb5cca-ec5c-4bc8-ae36-c21ba0705ad2.png" t="Include" />
+            <e p="bb4120a6-85c7-4d3a-8fc4-e54f7d9f96ad.png" t="Include" />
+            <e p="bd4616b7-4165-444d-ba49-7260dd0d480e.png" t="Include" />
+            <e p="c612ea76-f6ff-49c1-bee9-94c27c2b9f96.png" t="Include" />
+            <e p="d53cbffb-a1aa-454c-b08b-449a7e5dac59.png" t="Include" />
+            <e p="d5d939b0-e4fa-406b-a346-57a0b2b9ea7b.png" t="Include" />
+            <e p="d6af2724-ec14-4c0f-8a13-2c1a4f109f1b.png" t="Include" />
+            <e p="d80d0566-57bd-44d9-a3b2-4c75e8de40ca.png" t="Include" />
+            <e p="de4e7bf8-7364-4c9d-8892-7b8652e19aa0.png" t="Include" />
+            <e p="e5d41468-87cb-496b-930e-5a5fc088b837.png" t="Include" />
+            <e p="e6b78442-060f-44b1-b30b-d117b88b96d9.png" t="Include" />
+            <e p="e712a628-4da8-477b-8c2b-27025036dae9.png" t="Include" />
+            <e p="e7f3ccb0-0816-4c22-9ac4-5f0f50e97ed0.png" t="Include" />
+            <e p="e955d491-eea7-4b43-b17d-191a62279b3c.png" t="Include" />
+            <e p="ef7c5f8a-1f57-4aac-ac6b-24e8365a8f4c.png" t="Include" />
+          </e>
+          <e p="index.html" t="Include" />
+          <e p="js" t="Include">
+            <e p="app.js" t="Include" />
+            <e p="app.js.map" t="Include" />
+            <e p="bundle.js" t="Include" />
+            <e p="chunk-vendors.js" t="Include" />
+            <e p="chunk-vendors.js.map" t="Include" />
+            <e p="index.bundle.js" t="Include" />
+            <e p="vuetify.bundle.js" t="Include" />
+          </e>
+          <e p="posters" t="Include">
+            <e p="cheguevara.png" t="Include" />
+            <e p="collage.png" t="Include" />
+            <e p="light.png" t="Include" />
+            <e p="maleri.png" t="Include" />
+            <e p="navneplakat.png" t="Include" />
+            <e p="neutral.png" t="Include" />
+            <e p="newart.png" t="Include" />
+            <e p="noimage.png" t="Include" />
+            <e p="obama.png" t="Include" />
+            <e p="popart.png" t="Include" />
+            <e p="popart1-4.png" t="Include" />
+            <e p="raw.png" t="Include" />
+          </e>
+          <e p="web" t="Include">
+            <e p="che.jpg" t="Include" />
+            <e p="collage.jpg" t="Include" />
+            <e p="cutout.jpg" t="Include" />
+            <e p="film.jpg" t="Include" />
+            <e p="fresco.jpg" t="Include" />
+            <e p="light.jpg" t="Include" />
+            <e p="maleri.jpg" t="Include" />
+            <e p="morrison.jpg" t="Include" />
+            <e p="navneplakat.jpg" t="Include" />
+            <e p="neutral.jpg" t="Include" />
+            <e p="newart.jpg" t="Include" />
+            <e p="obama.jpg" t="Include" />
+            <e p="popart.jpg" t="Include" />
+            <e p="popart14.jpg" t="Include" />
+            <e p="popart41.jpg" t="Include" />
+            <e p="poster.jpg" t="Include" />
+            <e p="raw.jpg" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Dev.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Dev.111131363.00" t="ExcludeRecursive" />
+  </component>
+</project>

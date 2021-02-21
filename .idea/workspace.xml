@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f864dc69-cb71-4faa-b774-74c51c932cb2" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/src/DesignRequest/DesignRequest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignRequest/DesignRequest.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignRequest/DesignRequest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignRequest/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/resources.js" afterDir="false" />
+=======
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/.vs/Dev/DesignTimeBuild/.dtbcache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/.vs/Dev/DesignTimeBuild/.dtbcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/.vs/Dev/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/.vs/Dev/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/.vs/Dev/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/.vs/Dev/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/.vs/Dev/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/.vs/Dev/v16/Server/sqlite3/storage.ide" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/Interfaces/IOrderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/Interfaces/IOrderService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/Models/OrderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/Models/OrderService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/BusinessLayer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/BusinessLayer.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/DataLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/DataLayer.dll" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/BusinessLayer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/BusinessLayer.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/DataLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/DataLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Debug/netcoreapp3.0/appsettings.json" beforeDir="false" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Release/netcoreapp3.0/BusinessLayer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Release/netcoreapp3.0/BusinessLayer.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Release/netcoreapp3.0/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Release/netcoreapp3.0/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Release/netcoreapp3.0/BusinessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Release/netcoreapp3.0/BusinessLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Release/netcoreapp3.0/DataLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Release/netcoreapp3.0/DataLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Release/netcoreapp3.0/DataLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Release/netcoreapp3.0/DataLayer.pdb" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/bin/Release/netcoreapp3.0/appsettings.json" beforeDir="false" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/BusinessLayer.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/BusinessLayer.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/BusinessLayer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/BusinessLayer.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/BusinessLayer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/BusinessLayer.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Debug/netcoreapp3.0/BusinessLayer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Debug/netcoreapp3.0/BusinessLayer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Debug/netcoreapp3.0/BusinessLayer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Debug/netcoreapp3.0/BusinessLayer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Debug/netcoreapp3.0/BusinessLayer.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Debug/netcoreapp3.0/BusinessLayer.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Debug/netcoreapp3.0/BusinessLayer.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Debug/netcoreapp3.0/BusinessLayer.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Debug/netcoreapp3.0/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Debug/netcoreapp3.0/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Debug/netcoreapp3.0/BusinessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Debug/netcoreapp3.0/BusinessLayer.pdb" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Release/netcoreapp3.0/BusinessLayer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Release/netcoreapp3.0/BusinessLayer.AssemblyInfo.cs" afterDir="false" />
+=======
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Release/netcoreapp3.0/BusinessLayer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Release/netcoreapp3.0/BusinessLayer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Release/netcoreapp3.0/BusinessLayer.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Release/netcoreapp3.0/BusinessLayer.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Release/netcoreapp3.0/BusinessLayer.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Release/netcoreapp3.0/BusinessLayer.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Release/netcoreapp3.0/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Release/netcoreapp3.0/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Release/netcoreapp3.0/BusinessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/Release/netcoreapp3.0/BusinessLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/BusinessLayer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/BusinessLayer/obj/project.assets.json" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/DTO/EpayResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/DTO/EpayResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Data/BaseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Data/BaseContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Data/ShopContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Data/ShopContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/IServiceCollectionExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/IServiceCollectionExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Interfaces/ICartRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Interfaces/ICartRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Interfaces/ICustomerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Interfaces/ICustomerRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Interfaces/IOrderRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Interfaces/IOrderRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Migrations/ShopContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Migrations/ShopContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Repositories/AuthRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Repositories/AuthRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Repositories/CartRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Repositories/CartRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Repositories/CustomerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Repositories/CustomerRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Repositories/OrderRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Repositories/OrderRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Repositories/StyleRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Repositories/StyleRepository.cs" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Data/ShopContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Data/ShopContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/DataLayer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/DataLayer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/Migrations/ShopContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/Migrations/ShopContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/appsettings.json" beforeDir="false" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/bin/Debug/netcoreapp3.0/DataLayer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/bin/Debug/netcoreapp3.0/DataLayer.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/bin/Debug/netcoreapp3.0/DataLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/bin/Debug/netcoreapp3.0/DataLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/bin/Debug/netcoreapp3.0/DataLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/bin/Debug/netcoreapp3.0/DataLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/bin/Debug/netcoreapp3.0/DataLayer.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/bin/Debug/netcoreapp3.0/DataLayer.runtimeconfig.dev.json" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/bin/Debug/netcoreapp3.0/appsettings.json" beforeDir="false" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/bin/Release/netcoreapp3.0/DataLayer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/bin/Release/netcoreapp3.0/DataLayer.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/bin/Release/netcoreapp3.0/DataLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/bin/Release/netcoreapp3.0/DataLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/bin/Release/netcoreapp3.0/DataLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/bin/Release/netcoreapp3.0/DataLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/bin/Release/netcoreapp3.0/DataLayer.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/bin/Release/netcoreapp3.0/DataLayer.runtimeconfig.dev.json" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/bin/Release/netcoreapp3.0/appsettings.json" beforeDir="false" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/DataLayer.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/DataLayer.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/DataLayer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/DataLayer.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/DataLayer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/DataLayer.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/Debug/netcoreapp3.0/DataLayer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/Debug/netcoreapp3.0/DataLayer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/Debug/netcoreapp3.0/DataLayer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/Debug/netcoreapp3.0/DataLayer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/Debug/netcoreapp3.0/DataLayer.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/Debug/netcoreapp3.0/DataLayer.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/Debug/netcoreapp3.0/DataLayer.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/Debug/netcoreapp3.0/DataLayer.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/Debug/netcoreapp3.0/DataLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/Debug/netcoreapp3.0/DataLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/Debug/netcoreapp3.0/DataLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/Debug/netcoreapp3.0/DataLayer.pdb" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/Release/netcoreapp3.0/DataLayer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/Release/netcoreapp3.0/DataLayer.AssemblyInfo.cs" afterDir="false" />
+=======
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/Release/netcoreapp3.0/DataLayer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/Release/netcoreapp3.0/DataLayer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/Release/netcoreapp3.0/DataLayer.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/Release/netcoreapp3.0/DataLayer.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/Release/netcoreapp3.0/DataLayer.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/Release/netcoreapp3.0/DataLayer.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/Release/netcoreapp3.0/DataLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/Release/netcoreapp3.0/DataLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/Release/netcoreapp3.0/DataLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/Release/netcoreapp3.0/DataLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/DataLayer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/DataLayer/obj/project.assets.json" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Controllers/CartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Controllers/CartController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Controllers/CheckoutController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Controllers/CheckoutController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Dev.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Dev.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Dev.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Dev.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Properties/PublishProfiles/FolderProfile1.pubxml" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Properties/PublishProfiles/FolderProfile1.pubxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Properties/PublishProfiles/FolderProfile1.pubxml.user" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Properties/PublishProfiles/FolderProfile1.pubxml.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Views/Checkout/Complete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Views/Checkout/Complete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Views/Checkout/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Views/Checkout/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Views/Checkout/Payment.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Views/Checkout/Payment.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Views/Page/Page.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Views/Page/Page.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Views/Shared/_CheckoutLayout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Views/Shared/_CheckoutLayout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/DataLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/DataLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/Dev.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/Dev.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/Dev.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/Dev.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/BusinessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/BusinessLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/DataLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/DataLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/DataLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/DataLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Dev.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Dev.csproj.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/Properties/PublishProfiles/FolderProfile1.pubxml.user" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/Properties/PublishProfiles/FolderProfile1.pubxml.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/BusinessLayer 2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/BusinessLayer 2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/BusinessLayer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/BusinessLayer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/DataLayer 2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/DataLayer 2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/DataLayer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/DataLayer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/Dev 2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/Dev 2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/Dev.Views 2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/Dev.Views 2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/Dev.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/Dev.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/Dev.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/Dev.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/Dev.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/Dev.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/Dev.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/BusinessLayer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/BusinessLayer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/DataLayer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/DataLayer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Dev.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Dev.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Dev.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Dev.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Dev.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Dev.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Dev.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGeneration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/NuGet.Frameworks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/Remotion.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/System.Composition.AttributedModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/System.Composition.Convention.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/System.Composition.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/System.Composition.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/System.Composition.TypedParts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/System.Interactive.Async.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/dotnet-aspnet-codegenerator-design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/wwwroot/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/wwwroot/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/wwwroot/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/wwwroot/js/app.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/wwwroot/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/wwwroot/js/chunk-vendors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/wwwroot/js/chunk-vendors.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/wwwroot/js/index.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp2.2/publish/wwwroot/js/vuetify.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/.BusinessLayer.pdb.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/.DataLayer.pdb.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/.Dev.Views.pdb.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/.Dev.pdb.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/DataLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/DataLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/Dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/Dev.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/Dev.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/Dev.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Debug/netcoreapp3.0/Dev.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/BusinessLayer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/BusinessLayer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/DataLayer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/DataLayer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/Dev.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/Dev.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/Dev.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/Dev.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/Dev.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/Dev.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/Dev.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/BusinessLayer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/BusinessLayer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/DataLayer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/DataLayer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Dev.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGeneration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/NuGet.Frameworks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/Remotion.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/System.Composition.AttributedModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/System.Composition.Convention.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/System.Composition.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/System.Composition.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/System.Composition.TypedParts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/System.Interactive.Async.dll" beforeDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/dotnet-aspnet-codegenerator-design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/BusinessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/BusinessLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer.pdb" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/dotnet-aspnet-codegenerator-design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/js/app.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/js/chunk-vendors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/js/chunk-vendors.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/js/index.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp2.2/publish/wwwroot/js/vuetify.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/BusinessLayer 2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/BusinessLayer 2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/BusinessLayer 3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/BusinessLayer 3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/BusinessLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/BusinessLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/BusinessLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/BusinessLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer 2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer 2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer 3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer 3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer 4.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/DataLayer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev 2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev 2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev 3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev 3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev 4.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev 4.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev 5.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.Views 2.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.Views 2.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.Views 3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.Views 3.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.Views 4.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.Views 4.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.Views 5.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.Views 5.pdb" beforeDir="false" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Dev.runtimeconfig.dev.json" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/appsettings.json" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/Properties 2/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/appsettings 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/appsettings.Development 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/runtimes 2/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/runtimes 2/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/runtimes 2/win-arm64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/runtimes 2/win-x64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/runtimes 2/win-x86/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/runtimes 2/win/lib/netcoreapp2.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/runtimes 2/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/bin/Release/netcoreapp3.0/runtimes 2/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.RazorCoreGenerate.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.RazorTargetAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.TagHelpers.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.TagHelpers.output.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Dev.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Razor/Views/Cart/Index.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Razor/Views/Page/Page.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Razor/Views/Style/Index.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Razor/Views/Style/Style.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev 3" beforeDir="false" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.RazorAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.RazorTargetAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Dev.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Cart/Index.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Cart/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Cart/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Checkout/Complete.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Checkout/Complete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Checkout/Complete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Checkout/Index.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Checkout/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Checkout/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Checkout/Payment.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Checkout/Payment.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Checkout/Payment.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Page/Page.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Page/Page.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Page/Page.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_CheckoutLayout.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_CheckoutLayout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_CheckoutLayout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_CookieConsentPartial.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Style/Index.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Style/Index.cshtml.g 3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Style/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Style/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Style/Style.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Style/Style.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/Style/Style.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/WallArt/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/WallArt/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g 2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Debug/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Dev.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Dev.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Dev.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Dev.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Dev.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Dev.csproj.nuget.g.props" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.csproj.FileListAbsolute.txt" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.RazorCoreGenerate.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.RazorTargetAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.TagHelpers.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.TagHelpers.output.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Dev.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/BusinessLayer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/BusinessLayer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/DataLayer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/DataLayer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Dev.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Dev.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Dev.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Dev.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Dev.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Dev.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/NuGet.Frameworks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/Remotion.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/System.Composition.AttributedModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/System.Composition.Convention.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/System.Composition.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/System.Composition.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/System.Composition.TypedParts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/System.Interactive.Async.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/dotnet-aspnet-codegenerator-design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/js/app.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/js/chunk-vendors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/js/chunk-vendors.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/js/index.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/PubTmp/Out/wwwroot/js/vuetify.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Razor/Views/Style/Index.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Razor/Views/Style/Style.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.RazorCoreGenerate.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.RazorTargetAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.TagHelpers.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.TagHelpers.output.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Dev.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/BusinessLayer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/BusinessLayer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/DataLayer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/DataLayer.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Dev.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Dev.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Dev.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Dev.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Dev.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Dev.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Dev.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGeneration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/NuGet.Frameworks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/Remotion.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/System.Composition.AttributedModel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/System.Composition.Convention.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/System.Composition.Hosting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/System.Composition.Runtime.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/System.Composition.TypedParts.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/System.Interactive.Async.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/dotnet-aspnet-codegenerator-design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/wwwroot/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/wwwroot/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/wwwroot/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/wwwroot/js/app.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/wwwroot/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/wwwroot/js/chunk-vendors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/wwwroot/js/chunk-vendors.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/wwwroot/js/index.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/PubTmp/Out/wwwroot/js/vuetify.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Razor/Views/Style/Index.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Razor/Views/Style/Style.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp2.2/win-x64/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev 2" beforeDir="false" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.RazorAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.RazorTargetAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Dev.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Admin/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Admin/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Admin/Orders.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Admin/Orders.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Admin/Styles.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Admin/Styles.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Auth/Login.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Auth/Login.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Auth/Register.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Auth/Register.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Cart/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Cart/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Checkout/Complete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Checkout/Complete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Checkout/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Checkout/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Checkout/Payment.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Checkout/Payment.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Page/Page.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Page/Page.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Shared/_CheckoutLayout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Shared/_CheckoutLayout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Shared/_admin.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Shared/_admin.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Style/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Style/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Style/Style.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/Style/Style.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/WallArt/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/WallArt/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/Release/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g.cs" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/Dev.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/Dev.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/Dev.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/Dev.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/Dev.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/Dev.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/project.assets.json" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/netcoreapp2.2/win-x64/host/Dev.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/Dev.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/Dev.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/Dev.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/Dev.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/obj/publish/win-x64/project.assets.json" beforeDir="false" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/wwwroot/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/wwwroot/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/posters/cheguevara.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/posters/collage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/posters/light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/posters/maleri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/posters/navneplakat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/posters/neutral.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/posters/newart.png" beforeDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/posters/noimage.png" beforeDir="false" />
+=======
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/posters/obama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/posters/popart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/posters/popart1-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/wwwroot/posters/raw.png" beforeDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Basket/Basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basket/Basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/Builder.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/Builder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckoutInformation/CheckoutInformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckoutInformation/CheckoutInformation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckoutInformation/CheckoutInformation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckoutInformation/CheckoutInformation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FPImage/FPImage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/FPImage/FPImage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PageWrap/PageWrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageWrap/PageWrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PageWrap/PageWrap.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageWrap/PageWrap.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/cart.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/Builder/Builder.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/Builder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckoutInformation/CheckoutInformation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckoutInformation/CheckoutInformation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Wallart/Wallart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wallart/Wallart.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1Ul0nLXYWWrzKcH4UWFKjQrJQ1S" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../vue/bywhovue" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\malka\Desktop\vue\bywhocorevue\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/AdminStyles" />
+      <recent name="$PROJECT_DIR$/src/AdminWrap" />
+      <recent name="$PROJECT_DIR$/src/CarouselItem" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\malka\Desktop\vue\bywhocorevue\src" />
+      <recent name="C:\Users\malka\Desktop\vue\bywhocorevue\src\components" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f864dc69-cb71-4faa-b774-74c51c932cb2" name="Default Changelist" comment="" />
+      <created>1559161816881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559161816881</updated>
+      <workItem from="1559161818141" duration="3053000" />
+      <workItem from="1559164886329" duration="8029000" />
+      <workItem from="1559236117783" duration="10165000" />
+      <workItem from="1561805542154" duration="3822000" />
+      <workItem from="1562442727232" duration="13947000" />
+      <workItem from="1562531641916" duration="2000" />
+      <workItem from="1566157212320" duration="9530000" />
+      <workItem from="1569183528830" duration="11870000" />
+      <workItem from="1569705131264" duration="6530000" />
+      <workItem from="1569867658389" duration="11229000" />
+      <workItem from="1571302698305" duration="3606000" />
+      <workItem from="1571598542924" duration="5084000" />
+      <workItem from="1571907008588" duration="7668000" />
+      <workItem from="1575916041343" duration="3525000" />
+      <workItem from="1576002293064" duration="6852000" />
+      <workItem from="1580153204991" duration="8280000" />
+      <workItem from="1582520085460" duration="4913000" />
+      <workItem from="1582572222208" duration="12646000" />
+      <workItem from="1583079025357" duration="7271000" />
+<<<<<<< HEAD
+      <workItem from="1586154292317" duration="15756000" />
+      <workItem from="1594824334869" duration="4777000" />
+      <workItem from="1594974064449" duration="47320000" />
+      <workItem from="1598247026398" duration="1316000" />
+      <workItem from="1598446252091" duration="816000" />
+      <workItem from="1598705906850" duration="11000" />
+=======
+      <workItem from="1586154292317" duration="16367000" />
+      <workItem from="1588061406794" duration="6016000" />
+      <workItem from="1588070790352" duration="1879000" />
+      <workItem from="1588749794097" duration="8000" />
+      <workItem from="1594668150389" duration="3181000" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+<<<<<<< HEAD
+    <state x="6063" y="316" width="672" height="678" key="search.everywhere.popup" timestamp="1594983484665">
+      <screen x="5120" y="0" width="2560" height="1440" />
+    </state>
+    <state x="6063" y="316" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/5120.0.2560.1440@5120.0.2560.1440" timestamp="1594983484665" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/index.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+=======
+    <state x="909" y="1124" key="FileChooserDialogImpl" timestamp="1594824331862">
+      <screen x="0" y="0" width="3200" height="1760" />
+    </state>
+    <state x="909" y="1124" key="FileChooserDialogImpl/0.0.3200.1760@0.0.3200.1760" timestamp="1594824331862" />
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+  </component>
+</project>

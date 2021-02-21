@@ -1,0 +1,43 @@
+﻿@model MaterialeModel
+@inject ResourceHelper rh
+@{
+    ViewData["Title"] = Model.Material.SeoTitle;
+    ViewData["description"] = Model.Material.SeoDescription;
+    ViewData["keywords"] = Model.Material.SeoKeywords;
+    ViewData["nofollow"] = Model.Material.NoFollow;
+}
+<v-flex xs12 md10 lg8 offset-md1 offset-lg2 mt-5 pb-5>
+
+    <v-card>
+
+        <v-container fluid grid-list-lg>
+            <v-layout row wrap>
+
+                <v-flex xs12 md6 lg8>
+                    <v-img src="@Model.Material.Picture" />
+                </v-flex>
+                <v-flex xs12 md-5 lg4>
+                    <v-card>
+                        <v-card-title class="title"><h1>@Model.Material.Title</h1></v-card-title>
+                        <v-card-text>
+                            <p>
+                                <button class="v-btn theme--light primary"
+                                        style="color:#FFF;margin-left:0px;" onclick="window.location.href = '/designrequest'">
+                                    @(await rh.GetResource("Products.SendRequest"))
+                                </button>
+                            </p>
+
+                            <h3>Beskrivelse</h3>
+
+                            @Html.Raw(Model.Material.Text)
+
+
+                        </v-card-text>
+                    </v-card>
+                </v-flex>
+
+            </v-layout>
+        </v-container>
+    </v-card>
+</v-flex>
+

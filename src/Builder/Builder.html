@@ -1,0 +1,230 @@
+<v-layout row wrap>
+    <template v-if="!building">
+        <v-flex xs12 md6 lg8 ref="croppa">
+            <v-img :src="image" />
+        </v-flex>
+        <v-flex xs12 md-5 lg4>
+            <v-card>
+                <v-card-title class="title"><h1>{{name}}</h1></v-card-title>
+                <v-card-text>
+                    <p class="title">Pris {{price}} DKK</p>
+                    <p>
+                        <v-btn
+                                color="primary"
+                                style="color:#FFF;margin-left:0px;"
+                                @click="startBuilding"
+                        >Upload billede(r) mm.</v-btn
+                        >
+                    </p>
+                    <p>
+                        {{amount > 4 ? 'Op til ':''}}
+                        {{amount}} {{amount > 1 ? 'billeder':'billede'}}
+                        {{ text ? ' og tekst':''}}
+                    </p>
+                    <h3>Beskrivelse</h3>
+                    <p>
+                        {{description}}
+                    </p>
+                </v-card-text>
+            </v-card>
+        </v-flex>
+    </template>
+    <template v-else>
+        <v-layout column mt-2 >
+            <v-flex>
+                <v-btn flat @click="building=false">Tilbage</v-btn>
+            </v-flex>
+            <v-flex mt-4>
+                <v-layout align-center justify-center column v-if="pictures.length > 0" >
+                    <h3>Billeder:</h3>
+                    <p>
+                        Slet ved at klikke på billedet og vælg et nyt.
+                    </p>
+                </v-layout>
+                <v-layout align-center justify-center row >
+                    <table style="max-width: 300px;width:100%;" border="1" v-if="pictures.length > 0" class="tablepicture">
+                        <tr v-for="(picture,index) in pictures" :key="index">
+                            <td align="center" valign="middle" class="firstcolumn">
+                                <img :src="picture" alt="" height="75px" @click="deletePicture(index)"/>
+                            </td>
+                            <td align="center" valign="middle" class="secondColumn">
+                                Billede {{index+1}}
+                            </td>
+                        </tr>
+                    </table>
+                </v-layout>
+            </v-flex>
+            <v-flex v-if="pictures.length < +amount">
+                <v-layout justify-center align-center column>
+                    <v-flex xs 12>
+                        <h3>Du kan uploade {{amount-pictures.length}} billede(r) mere</h3>
+                    </v-flex>
+                </v-layout>
+                <v-layout justify-center align-center column>
+                    <v-flex xs 12>
+                        <v-btn color="primary" block style="color:#FFF;margin-left:0px;" @click="dialog=true" >Upload bilede {{pictures.length >= 5 ? ". +100 kr pr billede over 5":"" }}</v-btn>
+                    </v-flex>
+                </v-layout>
+            </v-flex>
+            <v-flex v-if="pictures.length > 0 && text">
+                <v-container>
+                    <v-layout justify-center align-center column>
+                        <v-flex xs 12>
+                            <h3>Tekst som inkluderes i dit design</h3>
+                        </v-flex>
+                    </v-layout>
+                    <v-layout column>
+
+                        <v-flex xs12>
+                            <v-textarea
+                                    class="ta"
+                                    v-model="userText"
+                                    outline
+                                    box
+                                    flat
+                                    clearable
+                                    full-width
+                                    label="Tekst"
+                                    no-resize
+                            ></v-textarea>
+                        </v-flex>
+                    </v-layout>
+                </v-container>
+
+
+
+            </v-flex>
+            <v-flex v-if="pictures.length > 0">
+                <v-container>
+                    <v-layout justify-center align-center column>
+                        <v-flex xs 12>
+                            <h3>Dine input til dit design (F.eks. tema, som bryllup, jubilæum eller til farver som lette farver, s/h eller farver med knald på). Ingen input så har designeren frie hænder.</h3>
+                        </v-flex>
+                    </v-layout>
+                    <v-layout column>
+
+                        <v-flex xs12>
+                            <v-textarea
+                                    class="ta"
+                                    v-model="styleComments"
+                                    outline
+                                    box
+                                    flat
+                                    clearable
+                                    full-width
+                                    label="Kommentar"
+                                    no-resize
+                            ></v-textarea>
+                        </v-flex>
+                    </v-layout>
+                </v-container>
+
+
+
+            </v-flex>
+            <v-flex v-if="pictures.length > 0">
+                <v-card color="grey lighten-4">
+                    <v-layout align-center justify-center column >
+                        <v-flex>
+                            <h3>Vælg en størrelse</h3>
+                        </v-flex>
+                    </v-layout>
+                    <v-layout align-center justify-center row >
+                        <v-flex v-for="size in sizes" :key="size.id">
+                            <v-layout column fill-height justify-space-between>
+                                <v-flex align-self-center>
+                                    <v-sheet v-if="selectedSize === size.id"
+
+                                             :elevation="6"
+                                             class="mx-auto"
+                                             color="grey lighten-3"
+                                             :height="size.height"
+                                             :width="size.width"
+                                             @click="selectSize(size.id)"
+                                    ><img :src="image" style="object-fit: cover;height:100%;width:100% ;border:#486973 solid 2px"/></v-sheet>
+                                    <v-sheet v-else
+                                             :elevation="size.elevation"
+                                             class="mx-auto"
+                                             :height="size.height"
+                                             :width="size.width"
+                                             @click="selectSize(size.id)"
+                                    ><img :src="image" style="object-fit: cover;height:100%;width:100%"/></v-sheet>
+                                </v-flex>
+                                <v-flex align-self-center><span class="caption">{{size.name}}<br/>{{calculatePrice()}} DKK</span></v-flex>
+                            </v-layout>
+                        </v-flex>
+
+                    </v-layout>
+                </v-card>
+            </v-flex>
+
+
+            <v-flex mt-4 mb-4>
+                <v-container>
+                    <v-layout column >
+                        <v-btn color="primary" @click="addStyleToBasket" :disabled="!(textEntered && picturesAdded && selectedSize)">Tilføj til kurv <v-icon dark right>add_shopping_cart</v-icon></v-btn>
+                    </v-layout>
+                </v-container>
+            </v-flex>
+        </v-layout>
+        <v-dialog v-model="dialog" max-width="472px">
+            <v-card>
+                <v-layout>
+                    <v-flex xs6>
+
+                        <v-btn color="primary" style="color:#fff;" @click="myCroppa.remove()" block :disabled="!showAddButton">Fjern billede</v-btn>
+                    </v-flex>
+                    <v-flex xs6>
+                        <v-btn color="primary" style="color:#fff;" block :disabled="!showAddButton" @click="pictureAdd">Gem billede</v-btn>
+
+                    </v-flex>
+                </v-layout>
+                <v-layout>
+                    <v-flex xs6>
+                        <v-btn block @click="myCroppa.rotate(-1)"><v-icon>rotate_left</v-icon></v-btn>
+                    </v-flex>
+                    <v-flex xs6>
+
+                        <v-btn block @click="myCroppa.rotate()"><v-icon>rotate_right</v-icon></v-btn>
+                    </v-flex>
+                </v-layout>
+                <v-flex xs12 id="croppa">
+
+                    <croppa
+                            class="croppa-designer"
+                            :prevent-white-space="false"
+                            :show-remove-button="false"
+                            v-model="myCroppa"
+
+                            quality="10"
+                            @new-image="pictureAdded"
+                            :placeholder="'Klik her for at vælge billede'"
+                            :placeholder-font-size="22"
+                            :placeholder-color="'#1976d2'"
+                            @image-remove="pictureRemoved">
+                        ></croppa>
+                </v-flex>
+<<<<<<< HEAD
+=======
+            </v-layout>
+            <v-flex xs12 id="croppa">
+
+                <croppa
+                        class="croppa-designer"
+                        :prevent-white-space="false"
+                        :show-remove-button="false"
+                        v-model="myCroppa"
+
+                        quality="10"
+                        @new-image="pictureAdded"
+                        :placeholder="'Klik her for at vælge billede'"
+                        :placeholder-font-size="22"
+                        :placeholder-color="'#1976d2'"
+                        @image-remove="pictureRemoved">
+                    ></croppa>
+            </v-flex>
+>>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+            </v-card>
+        </v-dialog>
+    </template>
+</v-layout>

@@ -1,0 +1,12 @@
+@model DataLayer.DTO.CompleteDTO
+
+@{
+    ViewBag.Title = "complete";
+    Layout = "_CheckoutLayout";
+}
+
+@Html.Raw(Model.Response)
+
+<script>
+    localStorage.setItem('customerId', '@Model.NewCart.Id.ToString()');
+</script>

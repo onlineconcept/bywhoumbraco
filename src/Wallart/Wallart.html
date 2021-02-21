@@ -1,0 +1,103 @@
+<v-flex xs12 md10 lg8 offset-md1 offset-lg2 mt-5 pb-5>
+
+    <v-card style="min-height: 500px;">
+        <v-container v-if="step === 1">
+            <div class="wallart__banner">
+                <div class="wallart__banner__text">
+                    <div class="wallart__banner__text--text">
+                        Se PRÆCIS hvordan dit nye billede kommer til at se ud på DIN væg!
+                    </div>
+                    <img :src="imageUrl" v-if="windowWidth < 640"/>
+                    <div class="wallart__banner__text--texttwo" v-if="windowWidth > 640" >
+                        <i>Upload et billede af din væg nu...</i>
+                    </div>
+                    <input type="file" @change="fileUploaded" v-if="windowWidth > 640">
+                </div>
+                <div class="wallart__banner__image">
+                    <img :src="imageUrl"  v-if="windowWidth > 640"/>
+                    <div v-html="bannerTextMobile" v-if="windowWidth < 640" class="wallart__banner__image__text" style="background: rgba(255,255,255,0.6);">
+                        Tag et billede af din væg nu eller hent i galleri…
+                    </div>
+                </div>
+                <input type="file" @change="fileUploaded" v-if="windowWidth < 640" style="margin-top:20px;">
+            </div>
+
+
+<!--        <v-card-title class="title">-->
+<!--            <h1 v-html="windowWidth > 640 ?headerText:headerTextMobile"></h1>-->
+<!--            <img :src="imageUrl" alt="" />-->
+<!--            <br><br>-->
+<!--            <p v-if="step === 1" v-html="windowWidth > 640 ?bottomText:bottomTextMobile"></p>-->
+<!--        </v-card-title>-->
+
+
+        </v-container>
+        <v-container v-if="step === 2">
+            <v-layout row wrap>
+                <div  style="margin-bottom: 5px;">
+                    <h3>Vælg stilart og se hvordan det ser ud på DIN væg</h3>
+                    <p>Scroll for at se flere stilarter</p>
+                </div>
+                <div class="slider" style="margin-bottom: 20px;">
+
+
+                    <div class="slides" :class="{overflow:isMobileDevice}">
+                        <div @mousedown="leftStartClick" @mouseup="leftStopClick" @mouseout="leftStopClick" class="left__button" v-if="!isMobileDevice">
+                            &lt;
+                        </div>
+                        <v-card class="slide-item" flat tile  v-for="(p,index) in posters"
+                                :key="p.id">
+                            <img @click="posterChange(index)"
+                                 :src="p.poster"
+                            />
+                        </v-card>
+                        <div @mousedown="rightStartClick" @mouseup="rightStopClick" @mouseout="rightStopClick" class="right__button" v-if="!isMobileDevice">
+                            &gt;
+                        </div>
+
+                    </div>
+
+                </div>
+            </v-layout>
+            <v-layout row wrap>
+                <v-flex md8>
+            <div class="frame" ref="canvas">
+                <img :src="url" alt="" class="canvas" ref="frame"/>
+                <img :src="art.poster" :width="height" class="poster" :style="{left:horizontal+'px',top:vertical+'px'}" ref="poster"/>
+            </div>
+                </v-flex>
+                <v-flex md4 class="pll5 pt-1">
+            <div class="controls">
+
+                <div class="slideritem">
+                    <label>venstre/højre</label>
+                    <v-slider
+                            v-model="horizontal"
+                            :max="frameWidth()"
+                    ></v-slider>
+                </div>
+                <div class="slideritem">
+                    <label>op/ned</label>
+                    <v-slider
+                            v-model="vertical"
+                            :max="frameHeight()"
+                    ></v-slider>
+                </div>
+                <div class="slideritem">
+                    <label>mindre/større</label>
+                    <v-slider
+
+                            v-model="height"
+                            :max="frameHeight()"
+                    ></v-slider>
+                </div>
+                <v-btn color="primary" v-if="windowWidth > 640" @click="redirect">Start bestilling</v-btn>
+            </div>
+
+
+                </v-flex>
+                <v-btn style="flex-grow: 1;" color="primary" v-if="windowWidth < 640" @click="redirect">Start bestilling</v-btn>
+            </v-layout>
+        </v-container>
+    </v-card>
+</v-flex>

@@ -1,0 +1,12 @@
+C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\bin\Release\DataLayer.dll.config
+C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\bin\Release\DataLayer.dll
+C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\bin\Release\DataLayer.pdb
+C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\bin\Release\EntityFramework.dll
+C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\bin\Release\EntityFramework.xml
+C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.csproj.CopyComplete
+C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.dll
+C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.pdb
+C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.csprojAssemblyReference.cache
+C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.csproj.CoreCompileInputs.cache

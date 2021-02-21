@@ -1,0 +1,6 @@
+/node_modules
+/Dev/.vs
+/Dev/DataLayer/obj/
+/Dev/DataLayer/bin/
+/Dev/BusinessLayer/obj/
+/Dev/BusinessLayer/bin/

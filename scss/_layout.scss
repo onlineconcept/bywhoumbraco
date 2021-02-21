@@ -1,0 +1,12 @@
+//Header, footer, grid, navigation
+.top-space{
+    height:3vw;
+    display:flex;
+    @media screen and (max-width: 1265px){
+        height:13vw;
+    }
+}
+
+.footer {
+    display: flex;
+}

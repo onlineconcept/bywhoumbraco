@@ -1,0 +1,25 @@
+﻿@model StyleViewModel
+@{
+    ViewData["Title"] = Model.Style.SeoTitle;
+    ViewData["description"] = Model.Style.SeoDescription;
+}
+    <v-flex xs12 md10 lg8 offset-md1 offset-lg2 mt-5 pb-5>
+
+    <v-card>
+        
+        <v-container fluid
+                     grid-list-lg>
+            <builder 
+                name="@Model.Style.Name"
+                price="@Model.Style.Price"
+                amount="@Model.Style.AmountOfPictures"
+                text="@Model.Style.HasText"
+                description="@Model.Style.Description"
+                image="@Model.Style.Picture"
+                id="@Model.Style.Id"
+                     
+            ></builder>
+        </v-container>
+    </v-card>
+    </v-flex>
+

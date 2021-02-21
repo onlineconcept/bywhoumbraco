@@ -1,0 +1,57 @@
+@model PageViewModel
+@inject ResourceHelper rh
+@{
+    ViewData["Title"] = Model.Page.SeoTitle;
+    ViewData["description"] = Model.Page.SeoDescription;
+    ViewData["keywords"] = Model.Page.SeoKeywords;
+    ViewData["nofollow"] = Model.Page.NoFollow;
+}
+@section Styles{
+    <style>
+        p img {
+            width: 100% !important;
+            height: 100% !important;
+        }
+    </style>
+}
+<v-flex xs12 md10 lg8 offset-md1 offset-lg2 mt-5 pb-5>
+
+    <v-card>
+        <v-card-title class="title">
+            <h1>@Model.Page.Title</h1>
+        </v-card-title>
+        <v-container>
+            <v-layout wrap>
+                <v-flex xs12 lg8 xl8>
+                    @Html.Raw(Model.Page.BodyTekst)
+                </v-flex>
+                <v-flex offset-lg1 offset-xl1 lg3 xl3 xs12>
+                    <h2>@(await rh.GetResource("Page.SeAlso"))</h2>
+                    <hr>
+                    <v-list>
+                        @foreach (var sub in Model.SubPages)
+                        {
+                            <v-list-tile>
+                                <v-list-tile-content>
+                                    <v-list-tile-title><a href="@("/sider/" + sub.SystemName)"> @sub.Title</a></v-list-tile-title>
+                                </v-list-tile-content>
+                            </v-list-tile>
+
+                        }
+                    </v-list>
+                </v-flex>
+            </v-layout>
+        </v-container>
+
+    </v-card>
+</v-flex>
+@if (Model.Page.SystemName != "kontakt")
+{
+<section class="contact-us">
+    <h2>@(await rh.GetResource("ContactBox.Title"))</h2><br />
+    <p>@(await rh.GetResource("ContactBox.Text"))</p>
+    <button class="v-btn theme--light" onclick="window.location.href='/sider/kontakt'">@(await rh.GetResource("ContactBox.Button"))</button>
+
+
+</section>
+}

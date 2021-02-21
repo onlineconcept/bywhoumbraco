@@ -1,0 +1,144 @@
+<v-form>
+    <v-container v-if="step === 1">
+        <h1>Adresseoplysninger</h1>
+        <v-layout v-if="errors.length > 0">
+            <v-flex>
+                <p style="color:red;" v-for="(e,index) in errors" :key="index">{{e}}</p>
+            </v-flex>
+        </v-layout>
+        <v-layout wrap>
+            <v-flex
+                    xs12
+                    md6
+            >
+                <v-text-field
+                        :value="customer.firstname"
+                        @input="updateFirstname"
+                        @blur="updateCustomer(null)"
+                        :rules="firstnameRules"
+                        :counter="30"
+                        label="Fornavn*"
+                        required
+                ></v-text-field>
+            </v-flex>
+                <v-flex
+                        xs12
+                        md6
+                >
+                <v-text-field
+                        :value="customer.lastname"
+                        @input="updateLastname"
+                        @blur="updateCustomer(null)"
+                        :rules="lastnameRules"
+                        :counter="30"
+                        :max-lenght="30"
+                        label="Efternavn*"
+                        required
+                ></v-text-field>
+            </v-flex>
+        </v-layout>
+        <v-layout wrap>
+            <v-flex
+                    xs12
+                    md12
+            >
+                <v-text-field
+                        :value="customer.address"
+                        @input="updateAddress"
+                        @blur="updateCustomer(null)"
+                        :rules="addressRules"
+                        :counter="90"
+                        label="Adresse*"
+                        required
+                ></v-text-field>
+            </v-flex>
+
+        </v-layout>
+        <v-layout wrap>
+            <v-flex
+                    xs12
+                    md6
+            >
+                <v-text-field
+                        :value="customer.zipcode"
+                        @input="updateZipcode"
+                        @blur="updateCustomer(null)"
+                        :rules="zipcodeRules"
+                        :counter="4"
+                        label="Postnummer*"
+                        required
+                ></v-text-field>
+            </v-flex>
+                <v-flex
+                        xs12
+                        md6
+                >
+                <v-text-field
+                        :value="customer.city"
+                        @input="updateCity"
+                        @blur="updateCustomer(null)"
+                        :rules="cityRules"
+                        :counter="30"
+                        label="Bynavn*"
+                        required
+                ></v-text-field>
+            </v-flex>
+        </v-layout>
+        <v-layout wrap>
+            <v-flex
+                    xs12
+                    md6
+            >
+                <v-text-field
+                        :value="customer.phone"
+                        @input="updatePhone"
+                        @blur="updateCustomer(null)"
+                        :rules="phoneRules"
+                        :counter="8"
+                        label="Telefonnummer*"
+                        required
+                ></v-text-field>
+            </v-flex>
+                <v-flex
+                        xs12
+                        md6
+                >
+                <v-text-field
+                        :value="customer.email"
+                        @input="updateEmail"
+                        @blur="updateCustomer(null)"
+                        :rules="emailRules"
+                        :counter="100"
+                        label="E-mail*"
+                        required
+                ></v-text-field>
+            </v-flex>
+        </v-layout>
+    </v-container>
+    <v-container v-if="step ===2">
+        <h1>Bekræft og betal</h1>
+        <v-layout column class="mt-5">
+            <v-flex class="invoicetitle">
+                <h2>Fakturering og leveringsoplysninger</h2>
+            </v-flex>
+            <v-flex class="reciver-line mt-3">
+                {{`${customer.firstname} ${customer.lastname}`}}
+            </v-flex>
+            <v-flex class="reciver-line">
+                {{customer.address}}
+            </v-flex>
+            <v-flex class="reciver-line">
+                {{customer.zipcode}} {{customer.city}}
+            </v-flex>
+            <v-flex class="reciver-line">
+                Denmark
+            </v-flex>
+            <v-flex class="reciver-line">
+                Tlf: {{customer.phone}}
+            </v-flex>
+            <v-flex class="reciver-line">
+                E-mail: {{customer.email}}
+            </v-flex>
+        </v-layout>
+    </v-container>
+</v-form>

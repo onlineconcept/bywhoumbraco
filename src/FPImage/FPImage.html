@@ -1,0 +1,11 @@
+<div class="fpBanner">
+    <div class="fpBanner__text"  v-if="windowWidth > 640">
+        <div class="fpBanner__text--text" v-html="bannerText"></div>
+        <v-btn color="primary" @click="redirectTo">{{buttonText}}</v-btn>
+    </div>
+    <div class="fpBanner__image" @click="redirectTo">
+        <img :src="bannerImage" :alt="bannerText" />
+        <div v-html="bannerTextMobile" v-if="windowWidth < 640" class="fpBanner__image__text"></div>
+    </div>
+    <v-btn color="primary" @click="redirectTo" v-if="windowWidth < 640">{{buttonText}}</v-btn>
+</div>

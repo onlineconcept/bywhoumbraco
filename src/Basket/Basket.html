@@ -1,0 +1,78 @@
+<div :class="{active:show,basket:!checkout,checkout:checkout}">
+    <div class="tool" v-if="!checkout">
+        <v-btn flat @click="closeMenu"><v-icon>close</v-icon></v-btn>
+    </div>
+    <div v-if="step === 1 || !checkout" class="basket-container">
+        <h2>{{$root.getLabel('Basket.Title') }} ({{cartlines.length}})</h2>
+        <div class="cartitems">
+            <div class="cartitem" v-for="line in cartlines">
+                <div class="image">
+                    <img :src="line.style.picture" alt="">
+                </div>
+                <div class="text">
+                    {{line.style.name}}
+                </div>
+                <div class="price-box">
+                    <div class="price-section">
+                        <span class="price">{{(line.quantity*line.price).toFixed(2)}} DKK</span>
+                        <span class="discount">379,00 DKK</span>
+                        <span class="vat">INKL.MOMS</span>
+                    </div>
+                    <div class="quantity">
+                        <button class="decrement" @click="decrement(line.id)">-</button>
+                        <span class="amount">{{line.quantity}} stk</span>
+                        <button class="increment" @click="increment(line.id)">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div v-if="step === 2" class="basket-container">
+        <h2>{{$root.getLabel('Basket.Title') }}({{cartlines.length}})</h2>
+        <div class="cartitems">
+            <div class="cartitem" v-for="line in cartlines">
+                <div class="image">
+                    <img :src="line.style.picture" alt="">
+                </div>
+                <div class="text">
+                    {{line.style.name}}
+                </div>
+                <div class="price-box">
+                    <div class="price-section">
+                        <span class="price">{{(line.quantity*line.price).toFixed(2)}} DKK</span>
+                        <span class="discount">379,00 DKK</span>
+                        <span class="vat">INKL.MOMS</span>
+                    </div>
+                    <div class="quantity no-border">
+                        <span class="amount">{{line.quantity}} stk</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="total-box">
+        <div class="delivery">
+            <div class="text">{{$root.getLabel('Basket.DeliveryText') }}</div>
+            <div class="devprice">0,00 DKK</div>
+        </div>
+        <div class="total">
+            <div class="text">{{$root.getLabel('Basket.TotalText') }}</div>
+            <div class="totalprice">{{ total.toFixed(2) }} DKK</div>
+        </div>
+    </div>
+    <div class="cta" v-if="!checkout">
+        <v-btn class="btn" color="white"><a href="/checkout" style="text-decoration: none; color:#000;">{{$root.getLabel('Basket.DeliveryButton')}}</a></v-btn>
+    </div>
+    <div class="cta" v-if="step === 1">
+        <v-btn class="btn" @click="gotoPayment">{{$root.getLabel('Basket.PaymentButton') }}</v-btn>
+    </div>
+    <div class="cta" v-if="step === 2">
+        <v-progress-circular
+                indeterminate
+                color="primary"
+                v-if="fetchingForm"
+        ></v-progress-circular>
+        <div v-html="paymentWindow" v-if="paymentWindow"></div>
+    </div>
+</div>

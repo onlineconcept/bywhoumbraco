@@ -1,0 +1,101 @@
+<v-flex xs12 md10 lg8 offset-md1 offset-lg2 mt-5 pb-5>
+
+    <v-card style="min-height: 500px;" class="pa-5" v-if="!complete">
+        <h1>DINE SPECIELLE ØNSKER:</h1>
+        <p>
+            Har du et specielt ønske, måske en bestemt designlinje du har set et andet sted, måske et ønske om at bruge
+            endnu flere billeder i en collage eller et ønske om noget helt andet, så kan vi også hjælpe med dette.
+        </p>
+        <p>
+            Send os dine specifikke ønsker, gerne med evt. foto, hvis det drejer sig om en bestemt designlinje, dine
+            billeder og dine tekster, så vender vi tilbage med evt. kommentarer og en pris.
+        </p>
+        <v-content>
+            <v-content>
+                <v-form @submit.prevent="submitForm">
+                    <v-flex cols="12" sm="6" md="3">
+                        <v-text-field
+                                v-model="email"
+                                :label="emailText"
+                                :rules="emailRules"
+                                :counter="100"
+                                ref="email"
+                                required
+                        ></v-text-field>
+                    </v-flex>
+                    <v-flex cols="12" sm="6" md="3">
+                        <v-text-field
+                                v-model="phone"
+                                :label="phoneText"
+                                :rules="phoneRules"
+                                :counter="8"
+                                @focus="phone = ''"
+                                ref="phone"
+                                required
+                        ></v-text-field>
+                    </v-flex>
+                    <v-flex cols="12" sm="6" md="3">
+                        <v-text-field
+                                v-model="size"
+                                :label="sizeText"
+                                :rules="sizeRules"
+                                ref="size"
+                                :counter="30"
+                                required
+                        ></v-text-field>
+                    </v-flex>
+                    <v-flex class="d-flex" cols="12" sm="6">
+                        <v-select
+                                v-model="selectedProduct"
+                                :items="products"
+                                :label="productText"
+                                required
+                        ></v-select>
+                    </v-flex>
+                    <v-flex cols="12" sm="6" md="3">
+                        <v-text-field
+                                v-model="style"
+                                :label="styleText"
+                                required
+                        ></v-text-field>
+                    </v-flex>
+
+                    <input type="file" ref="styleFileRef" @change="styleFileChanged"/>
+                    <v-flex cols="12" sm="6" md="3">
+                        <v-text-field
+                                :label="textLabel"
+                                v-model="text"
+                        ></v-text-field>
+                    </v-flex>
+                    <v-label style="color:rgba(0,0,0,0.54)">{{uploadText}}</v-label>
+                    <br/>
+                    <input type="file" ref="ownFileRef" class="mt-1" @change="ownFileChanged"/>
+                    <ul v-if="ownFiles.length > 0">
+                        <li v-for="file in ownFiles">{{file.name}}</li>
+                    </ul>
+                    <v-flex cols="12" md="6">
+                        <v-textarea
+                                v-model="comments"
+                                name="input-7-1"
+                                :label="commentText"
+                                :rules="commentRules"
+                                :counter="2000"
+                                ref="comments"
+                        ></v-textarea>
+                    </v-flex>
+                    <v-flex class="ml-auto" style="display: flex; justify-content: flex-end;">
+                        <v-btn color="primary" :loading="submitting" :disabled="submitting" type="submit">Send
+                            Forespørgsel
+                        </v-btn>
+                    </v-flex>
+                </v-form>
+            </v-content>
+        </v-content>
+    </v-card>
+    <v-card style="min-height: 500px;" class="pa-5" v-else>
+        <h1>{{thanksHeader}}</h1>
+        <p>
+            {{thanksText}}
+        </p>
+    </v-card>
+</v-flex>

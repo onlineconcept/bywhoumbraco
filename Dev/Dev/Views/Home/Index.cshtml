@@ -1,0 +1,41 @@
+﻿@inject ResourceHelper rh
+@{
+    ViewData["Title"] = "Plakater design selv - Plakater med egne billeder og fotos - Køb online";
+}
+<v-flex xs12 md10 lg8 offset-md1 offset-lg2 pt-4 pb-5>
+
+    <v-container>
+        <fp-image button-text="@(await rh.GetResource("Banner.Button"))"
+                  banner-text="@(await rh.GetResource("Banner.Title"))"
+                  banner-text-mobile="@(await rh.GetResource("Baner.TitleMobile"))"
+                  banner-url="@(await rh.GetResource("Banner.Link"))"
+                  banner-image="@(await rh.GetResource("Banner.Image"))" />
+    </v-container>
+</v-flex>
+<section class="steps">
+
+    <div class="steps__step">
+        <img src="@(await rh.GetResource("Step1.Image"))" alt="Vælg stilart" />
+        <h4>@(await rh.GetResource("Step1.Title"))</h4>
+        <p>@(await rh.GetResource("Step1.Tekst"))</p>
+    </div>
+    <div class="steps__step">
+        <img src="@(await rh.GetResource("Step2.Image"))" alt="Vælg stilart" />
+        <h4>@(await rh.GetResource("Step2.Title"))</h4>
+        <p>@(await rh.GetResource("Step2.Tekst"))</p>
+    </div>
+    <div class="steps__step">
+        <img src="@(await rh.GetResource("Step3.Image"))" alt="Vælg stilart" />
+        <h4>@(await rh.GetResource("Step3.Title"))</h4>
+        <p>@(await rh.GetResource("Step3.Tekst"))</p>
+    </div>
+    <div class="steps__step">
+        <img src="@(await rh.GetResource("Step4.Image"))" alt="Vælg stilart" />
+        <h4>@(await rh.GetResource("Step.Title"))</h4>
+        <p>@(await rh.GetResource("Step4.Tekst"))</p>
+    </div>
+</section>
+<section class="welcome">
+    @(Html.Raw((await rh.GetResource("Forside.Html"))))
+
+</section>

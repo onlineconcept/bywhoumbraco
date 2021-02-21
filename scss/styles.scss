@@ -1,0 +1,36 @@
+@import '../node_modules/vuetify/dist/vuetify.css';
+@import '~vue-croppa/dist/vue-croppa.css';
+@import 'base';
+@import 'layout';
+@import 'component';
+@import 'carousel';
+@import 'basket';
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.slideritem .primary,
+button.primary{
+  background-color: #486973 !important;
+  border-color: #486973 !important;
+}
+.links{
+  display:flex;
+  width:800px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.top-link{
+  color:#fff;
+  text-decoration: none;
+  display: flex;
+  align-self: stretch;
+
+  align-items: center;
+  padding: 0 10px;
+  &:hover{
+    background-color:rgba(255,255,255,.1);
+  }
+}

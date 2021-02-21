@@ -1,0 +1,18 @@
+@model object
+@inject ResourceHelper rh
+@{
+    Layout = null;
+    Layout = "_CheckoutLayout";
+}
+<checkout-wrap>
+    <v-layout wrap>
+        <v-flex md5 lg7 xs12>
+            <v-btn flat><a href="/checkout" style="color:lightslategray;text-decoration: none;display: flex; align-items: center;"><v-icon>arrow_back</v-icon>@(await rh.GetResource("Checkout.Payment.BackLink"))</a></v-btn>
+
+            <checkout-information :step="2"></checkout-information>
+        </v-flex>
+        <v-flex offset-lg1 offset-md1 md6 lg4 xs12>
+            <basket :checkout="true" :step="2"></basket>
+        </v-flex>
+    </v-layout>
+</checkout-wrap>

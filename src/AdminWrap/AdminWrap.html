@@ -1,0 +1,18 @@
+<v-app>
+  <v-content>
+      <v-toolbar fixed style="margin-bottom: 40px;">
+          <a href="/admin">Administration</a>
+
+          <v-spacer></v-spacer>
+          <v-toolbar-items class="hidden-sm-and-down">
+              <v-btn flat @click="visible=1">Orders</v-btn>
+              <v-btn flat @click="visible=2">Stilarter </v-btn>
+              <v-btn flat @click="visible=3">Customers </v-btn>
+              <v-btn flat @click="$store.dispatch('auth/logout')">Log ud </v-btn>
+          </v-toolbar-items>
+      </v-toolbar>
+      <Login v-if="!isAuth"></Login>
+      <AdminOrders v-if="visible===1 && isAuth" style="margin-top: 120px;"></AdminOrders>
+      <AdminStyles v-if="visible ===2 && isAuth" style="margin-top: 120px;"></AdminStyles>
+  </v-content>
+</v-app>

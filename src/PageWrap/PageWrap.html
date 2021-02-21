@@ -1,0 +1,85 @@
+<v-app>
+  <v-content>
+      <template v-if="!checkout">
+      <v-toolbar fixed dark style="background-color:#000;">
+          <a href="/"><v-img contain src="https://bywho.dk/Content/images/logo2.png" style="z-index:999;position:absolute;top:-5px; width:10.41vw; height:15.57vw;"></v-img></a>
+
+          <v-spacer></v-spacer>
+          <v-toolbar-items class="hidden-sm-and-down">
+              <div class="links">
+                  <a href="/wallart" class="top-link">Se det på din egen væg</a>
+                  <a href="/stilarter" class="top-link">Stilarter</a>
+                  <a href="/designrequest" class="top-link">Design forespørgsel</a>
+                  <a href="/produkter" class="top-link">Produkter</a>
+                  <a href="/sider/resale" class="top-link">Resale</a>
+                  <a href="/sider/erhverv" class="top-link">Ervherv</a>
+
+                  <a href="/sider/om-os" class="top-link">Om os</a>
+              </div>
+              <v-btn flat @click="showBasket"><v-icon left>shopping_basket</v-icon> Kurv </v-btn>
+          </v-toolbar-items>
+          <v-btn color="primary" @click="stylesPass">Start her</v-btn>
+          <v-toolbar-side-icon class="hidden-sm-and-up" @click="drawer = true"></v-toolbar-side-icon>
+      </v-toolbar>
+      <v-navigation-drawer
+                v-model="drawer"
+                fixed
+              temporary>
+          <v-toolbar flat>
+              <v-list>
+                  <v-list-tile>
+                      <v-list-tile-title class="title">
+                          <a href="/" class="text--black">By Who</a>
+                      </v-list-tile-title>
+                  </v-list-tile>
+              </v-list>
+          </v-toolbar>
+          <v-list class="pt-0" dense>
+              <v-divider></v-divider>
+              <v-list-tile>
+                  <v-list-tile-content>
+                      <a href="/wallart" class="text--black"><v-list-tile-title>Se det på din egen væg</v-list-tile-title></a>
+                  </v-list-tile-content>
+              </v-list-tile>
+              <v-list-tile>
+                  <v-list-tile-content>
+                      <a href="/stilarter" class="text--black"><v-list-tile-title>Stilarter</v-list-tile-title></a>
+                  </v-list-tile-content>
+              </v-list-tile>
+              <v-list-tile>
+                  <v-list-tile-content>
+                      <a href="/designrequest" class="text--black"><v-list-tile-title>Design Forespørgsel</v-list-tile-title></a>
+                  </v-list-tile-content>
+              </v-list-tile>
+              <v-list-tile>
+                  <v-list-tile-content>
+                      <a href="/produkter" class="text--black"><v-list-tile-title>Produkter</v-list-tile-title></a>
+                  </v-list-tile-content>
+              </v-list-tile>
+              <v-list-tile>
+                  <v-list-tile-content>
+                      <v-list-tile-title><a href="/sider/resale" class="text--black">Resale</a></v-list-tile-title>
+                  </v-list-tile-content>
+              </v-list-tile>
+              <v-list-tile>
+                  <v-list-tile-content>
+                      <v-list-tile-title><a href="/sider/erhverv" class="text--black">Ervherv</a></v-list-tile-title>
+                  </v-list-tile-content>
+              </v-list-tile>
+              <v-list-tile>
+                  <v-list-tile-content>
+                      <v-list-tile-title><a href="/sider/om-os">Om os</a></v-list-tile-title>
+                  </v-list-tile-content>
+              </v-list-tile>
+              <v-list-tile>
+                  <v-list-tile-content>
+                      <v-list-tile-title @click="showBasket">Kurv</v-list-tile-title>
+                  </v-list-tile-content>
+              </v-list-tile>
+
+          </v-list>
+      </v-navigation-drawer>
+      </template>
+    <slot></slot>
+  </v-content>
+</v-app>

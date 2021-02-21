@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewData["Title"] = "Stilarter";
+}
+
+    <v-flex xs12 md10 lg8 offset-md1 offset-lg2  pt-5 pb-5>
+
+    <v-card>
+        <v-card-title class="title"><h1>Stilarter</h1></v-card-title>
+        <v-container fluid
+                     grid-list-lg>
+        
+            <v-layout row wrap>
+
+                @foreach (var item in Model.Styles)
+                {
+            
+                    <v-flex xs12 md4 lg4>
+                
+
+                        <v-card>
+                            <a class="top-link" href="/stilarter/@item.SeName">
+                                <v-img class="white--text"
+                                       cover
+                                       src="@item.Picture">
+                                    <v-container fill-height fluid>
+                                        <v-layout fill-height>
+                                            <v-flex xs12 align-end flexbox style="position: absolute;left: -8px;top: -5px;">
+                                                <span class="headline" style="color:#000;background-color:rgba(255,255,255,0.5);padding:5px;">@item.Name</span>
+                                            </v-flex>
+                                        </v-layout>
+                                    </v-container>
+                                </v-img></a>
+                            <v-card>
+                                <v-card-text style=" position: relative">
+                                    <v-fab-transition>
+                                        
+                                    </v-fab-transition>
+                                </v-card-text>
+                                <a class="top-link" href="/stilarter/@item.SeName">
+                                    <v-card-title style="justify-content: space-between; width:100%; flex-wrap:wrap;">
+                                        <div style="color:#000;width: 100%;" >@(item.AmountOfPictures > 4 ? "Op til " : "") @item.AmountOfPictures @(item.AmountOfPictures > 1 ? " billeder" : " billede") @(item.HasText ? " og tekst" : "")</div>
+                                        <v-btn
+                                            color="primary"
+                                            style="color:#FFF;margin-top:10px; margin-left: 0px; font-size: 10px;"
+                                                                
+                                        >
+                                            Vælg og upload
+                                            </v-btn>
+                            
+
+
+
+                                    </v-card-title>
+                                </a>
+                            </v-card>
+
+                        </v-card>
+
+                
+                    </v-flex>
+            
+                }
+            </v-layout>
+        </v-container>
+    </v-card>
+    </v-flex>

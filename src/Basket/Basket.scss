@@ -1,0 +1,234 @@
+.basket{
+  position: fixed;
+  right: -110%;
+  top: 0;
+  height: 100vh;
+  max-width: 600px;
+  width:100%;
+  z-index: 200;
+  background-color: #476973;
+  transition: all 0.5s ease-in-out;
+  color:#FFF;
+  .v-icon{
+    color:#FFF;
+  }
+
+}
+.checkout{
+  height: 100vh;
+  width:100%;
+  background-color: #476973;
+
+  color:#FFF;
+  .v-icon{
+    color:#FFF;
+  }
+  //.cartitem .price-box .price-section .price {
+  //  font-size:1.5em;
+  //}
+  //.cartitem .text{
+  //  font-size:1.5em;
+  //}
+  //.cartitem .image {
+  //  img{
+  //    width: 70px;
+  //    margin-right: 10px;
+  //    @media screen and (max-width: 600px){
+  //      width:100%;
+  //    }
+  //  }
+  //}
+  @media screen and (max-width: 960px){
+    max-width: 100%;
+  }
+
+}
+.basket-container{
+  padding:40px;
+  h2{
+    font-size:3em;
+    @media screen and (max-width: 650px){
+      font-size:2em;
+    }
+  }
+}
+.active{
+  right: 0;
+  box-shadow: 2px 2px 20px 5px #000;
+}
+.tool{
+  display: flex;
+  justify-content: flex-end;
+}
+.cartitems{
+  overflow-y: auto;
+  height: 600px;
+  scroll-behavior: smooth;
+  padding-right: 20px;
+  @media screen and (max-width: 600px){
+    height: 400px;
+  }
+}
+.cartitem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  .image {
+    img{
+      width: 130px;
+      @media screen and (max-width: 600px){
+        width:100%;
+      }
+    }
+  }
+
+  .text {
+    color:#fff;
+    font-size: 1.5em;
+    width: 180px;
+    @media screen and (max-width: 650px){
+      font-size:1em;
+    }
+    @media screen and (max-width: 600px){
+      width:100%;
+    }
+  }
+
+  .price-box {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+
+    .price-section {
+      flex-direction: column;
+
+      .price {
+        color: #FFF;
+        font-size: 1.6em;
+        text-align: right;
+        width: 100%;
+        display: block;
+        @media screen and (max-width: 650px){
+          font-size:1em;
+        }
+      }
+
+      .discount {
+        color: #b26e65;
+        text-align: right;
+        width: 100%;
+        display: block;
+        text-decoration: line-through;
+        font-size: 1.2em;
+        padding-right: 7px;
+        @media screen and (max-width: 650px){
+          font-size:1em;
+        }
+      }
+
+      .vat {
+        color: #989898;
+        text-align: right;
+        display: block;
+        padding-right: 6px;
+      }
+      @media screen and (max-width: 600px){
+        width:100%;
+      }
+    }
+.quantity.no-border{
+  border:none !important;
+}
+    .quantity {
+      border: 3px solid #FFF;
+      display: flex;
+      height: 40px;
+      justify-content: space-around;
+      align-items: center;
+      .no-border{
+        border:none !important;
+      }
+
+      .decrement {
+        background: transparent;
+        color: #FFF;
+        font-size: 20px;
+        width: 30px;
+        outline: none;
+      }
+
+      .amount {
+        color:#fff;
+      }
+
+      .increment {
+        background: transparent;
+        color: #FFF;
+        font-size: 20px;
+        width: 30px;
+        outline: none;
+      }
+      @media screen and (max-width: 650px){
+        height:30px;
+      }
+    }
+    @media screen and (max-width: 600px){
+      width:100%;
+    }
+  }
+  @media screen and (max-width: 600px){
+    flex-direction: column;
+  }
+}
+hr{
+  margin: 0 39px;
+}
+.total-box{
+  display: flex;
+  flex-direction: column;
+  padding: 0 38px;
+  .delivery{
+    color: #9fa8da;
+    display: flex;
+    justify-content: space-between;
+    .text{
+      font-size:2em;
+      @media screen and (max-width: 650px){
+        font-size:1em;
+      }
+    }
+    .devprice{
+
+      font-size:2em;
+      @media screen and (max-width: 650px){
+        font-size:1em;
+      }
+    }
+  }
+  .total{
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    .text{
+      font-size:2em;
+      @media screen and (max-width: 650px){
+        font-size:1em;
+      }
+    }
+    .totalprice{
+
+      font-size:2em;
+      @media screen and (max-width: 650px){
+        font-size:1em;
+      }
+    }
+  }
+}
+.cta{
+  display:flex;
+  padding:0 38px;
+  justify-content: flex-end;
+  .btn{
+    margin-right:0;
+  }
+}

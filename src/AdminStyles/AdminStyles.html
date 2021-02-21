@@ -1,0 +1,13 @@
+<v-data-table
+        :headers="headers"
+        :items="stilarter"
+        class="elevation-1"
+        :rows-per-page-items="[20,40,200]"
+>
+    <template v-slot:items="props">
+        <td>{{ props.item.name }}</td>
+        <td class="text-xs-right">{{ props.item.price }}</td>
+        <td class="text-xs-center">{{ props.item.created }}</td>
+        <td class="text-xs-center">{{ props.item.hasText }}</td>
+    </template>
+</v-data-table>

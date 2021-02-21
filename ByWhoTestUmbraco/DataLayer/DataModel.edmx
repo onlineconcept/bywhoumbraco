@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="bywhoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CartLines">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="CustomerId" Type="uniqueidentifier" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Text" Type="nvarchar(max)" />
+          <Property Name="Comments" Type="nvarchar(max)" />
+          <Property Name="Created" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="StyleId" Type="uniqueidentifier" />
+          <Property Name="SizeId" Type="int" />
+          <Property Name="Quantity" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Customercarts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CustomerId" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Customers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Address" Type="nvarchar(max)" />
+          <Property Name="HouseNo" Type="nvarchar(max)" />
+          <Property Name="Zipcode" Type="nvarchar(max)" />
+          <Property Name="City" Type="nvarchar(max)" />
+          <Property Name="Phone" Type="nvarchar(max)" />
+          <Property Name="Email" Type="nvarchar(max)" />
+          <Property Name="Password" Type="nvarchar(max)" />
+          <Property Name="Guest" Type="bit" Nullable="false" />
+          <Property Name="Created" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="Updated" Type="datetime2" Precision="7" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Materials">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="nvarchar(max)" />
+          <Property Name="Text" Type="nvarchar(max)" />
+          <Property Name="Picture" Type="nvarchar(max)" />
+          <Property Name="Published" Type="bit" Nullable="false" />
+          <Property Name="NoFollow" Type="bit" Nullable="false" />
+          <Property Name="SeName" Type="nvarchar(max)" />
+          <Property Name="SeoDescription" Type="nvarchar(max)" />
+          <Property Name="SeoKeywords" Type="nvarchar(max)" />
+          <Property Name="SeoTitle" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Picture">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Path" Type="nvarchar(max)" />
+          <Property Name="CartLineId" Type="uniqueidentifier" />
+          <Property Name="OrderLineId" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Resources">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Value" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Sizes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Height" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Width" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="SizeType" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Styles">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Description" Type="nvarchar(max)" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="OldPrice" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="B2BPrice" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Picture" Type="nvarchar(max)" />
+          <Property Name="AmountOfPictures" Type="int" Nullable="false" />
+          <Property Name="Published" Type="bit" Nullable="false" />
+          <Property Name="Created" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="SortOrder" Type="int" Nullable="false" />
+          <Property Name="NoFollow" Type="bit" Nullable="false" />
+          <Property Name="SeoDescription" Type="nvarchar(max)" />
+          <Property Name="SeoKeywords" Type="nvarchar(max)" />
+          <Property Name="SeoTitle" Type="nvarchar(max)" />
+          <Property Name="SeName" Type="nvarchar(max)" />
+          <Property Name="HasText" Type="bit" Nullable="false" />
+          <Property Name="Poster" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Topic">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SystemName" Type="nvarchar(max)" />
+          <Property Name="Title" Type="nvarchar(max)" />
+          <Property Name="BodyTekst" Type="nvarchar(max)" />
+          <Property Name="IsPage" Type="bit" Nullable="false" />
+          <Property Name="SeoTitle" Type="nvarchar(max)" />
+          <Property Name="SeoDescription" Type="nvarchar(max)" />
+          <Property Name="SeoKeywords" Type="nvarchar(max)" />
+          <Property Name="NoFollow" Type="bit" Nullable="false" />
+          <Property Name="SubpageId" Type="int" />
+        </EntityType>
+        <Association Name="FK_CartLines_Customers_CustomerId">
+          <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+          <End Role="CartLines" Type="Self.CartLines" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CartLines">
+              <PropertyRef Name="CustomerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CartLines_Sizes_SizeId">
+          <End Role="Sizes" Type="Self.Sizes" Multiplicity="0..1" />
+          <End Role="CartLines" Type="Self.CartLines" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sizes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CartLines">
+              <PropertyRef Name="SizeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CartLines_Styles_StyleId">
+          <End Role="Styles" Type="Self.Styles" Multiplicity="0..1" />
+          <End Role="CartLines" Type="Self.CartLines" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Styles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CartLines">
+              <PropertyRef Name="StyleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Customercarts_Customers_CustomerId">
+          <End Role="Customers" Type="Self.Customers" Multiplicity="0..1" />
+          <End Role="Customercarts" Type="Self.Customercarts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Customercarts">
+              <PropertyRef Name="CustomerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Picture_CartLines_CartLineId">
+          <End Role="CartLines" Type="Self.CartLines" Multiplicity="0..1" />
+          <End Role="Picture" Type="Self.Picture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CartLines">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Picture">
+              <PropertyRef Name="CartLineId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Topic_Topic_SubpageId">
+          <End Role="Topic" Type="Self.Topic" Multiplicity="0..1" />
+          <End Role="Topic1" Type="Self.Topic" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Topic">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Topic1">
+              <PropertyRef Name="SubpageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="bywhoModelStoreContainer">
+          <EntitySet Name="CartLines" EntityType="Self.CartLines" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Customercarts" EntityType="Self.Customercarts" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Customers" EntityType="Self.Customers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Materials" EntityType="Self.Materials" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Picture" EntityType="Self.Picture" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Resources" EntityType="Self.Resources" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sizes" EntityType="Self.Sizes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Styles" EntityType="Self.Styles" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Topic" EntityType="Self.Topic" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_CartLines_Customers_CustomerId" Association="Self.FK_CartLines_Customers_CustomerId">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="CartLines" EntitySet="CartLines" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CartLines_Sizes_SizeId" Association="Self.FK_CartLines_Sizes_SizeId">
+            <End Role="Sizes" EntitySet="Sizes" />
+            <End Role="CartLines" EntitySet="CartLines" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CartLines_Styles_StyleId" Association="Self.FK_CartLines_Styles_StyleId">
+            <End Role="Styles" EntitySet="Styles" />
+            <End Role="CartLines" EntitySet="CartLines" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Customercarts_Customers_CustomerId" Association="Self.FK_Customercarts_Customers_CustomerId">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="Customercarts" EntitySet="Customercarts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Picture_CartLines_CartLineId" Association="Self.FK_Picture_CartLines_CartLineId">
+            <End Role="CartLines" EntitySet="CartLines" />
+            <End Role="Picture" EntitySet="Picture" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Topic_Topic_SubpageId" Association="Self.FK_Topic_Topic_SubpageId">
+            <End Role="Topic" EntitySet="Topic" />
+            <End Role="Topic1" EntitySet="Topic" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="bywhoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Styles">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="OldPrice" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="B2BPrice" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Picture" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="AmountOfPictures" Type="Int32" Nullable="false" />
+          <Property Name="Published" Type="Boolean" Nullable="false" />
+          <Property Name="Created" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="SortOrder" Type="Int32" Nullable="false" />
+          <Property Name="NoFollow" Type="Boolean" Nullable="false" />
+          <Property Name="SeoDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SeoKeywords" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SeoTitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SeName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="HasText" Type="Boolean" Nullable="false" />
+          <Property Name="Poster" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="CartLines" Relationship="bywhoModel.FK_CartLines_Styles_StyleId" FromRole="Styles" ToRole="CartLines" />
+        </EntityType>
+        <EntityType Name="Topic">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SystemName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="BodyTekst" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="IsPage" Type="Boolean" Nullable="false" />
+          <Property Name="SeoTitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SeoDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SeoKeywords" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="NoFollow" Type="Boolean" Nullable="false" />
+          <Property Name="SubpageId" Type="Int32" />
+          <NavigationProperty Name="Topic1" Relationship="Self.FK_Topic_Topic_SubpageId" FromRole="Topic" ToRole="Topic1" />
+          <NavigationProperty Name="Topic2" Relationship="Self.FK_Topic_Topic_SubpageId" FromRole="Topic1" ToRole="Topic" />
+        </EntityType>
+        <Association Name="FK_Topic_Topic_SubpageId">
+          <End Role="Topic" Type="Self.Topic" Multiplicity="0..1" />
+          <End Role="Topic1" Type="Self.Topic" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Topic">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Topic1">
+              <PropertyRef Name="SubpageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="bywhoEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Styles" EntityType="Self.Styles" />
+          <EntitySet Name="Topic" EntityType="Self.Topic" />
+          <AssociationSet Name="FK_Topic_Topic_SubpageId" Association="Self.FK_Topic_Topic_SubpageId">
+            <End Role="Topic" EntitySet="Topic" />
+            <End Role="Topic1" EntitySet="Topic" />
+          </AssociationSet>
+          <EntitySet Name="Resources" EntityType="bywhoModel.Resources" />
+          <EntitySet Name="CartLines" EntityType="bywhoModel.CartLines" />
+          <EntitySet Name="Customers" EntityType="bywhoModel.Customers" />
+          <AssociationSet Name="FK_CartLines_Customers_CustomerId" Association="bywhoModel.FK_CartLines_Customers_CustomerId">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="CartLines" EntitySet="CartLines" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CartLines_Styles_StyleId" Association="bywhoModel.FK_CartLines_Styles_StyleId">
+            <End Role="Styles" EntitySet="Styles" />
+            <End Role="CartLines" EntitySet="CartLines" />
+          </AssociationSet>
+          <EntitySet Name="Sizes" EntityType="bywhoModel.Sizes" />
+          <AssociationSet Name="FK_CartLines_Sizes_SizeId" Association="bywhoModel.FK_CartLines_Sizes_SizeId">
+            <End Role="Sizes" EntitySet="Sizes" />
+            <End Role="CartLines" EntitySet="CartLines" />
+          </AssociationSet>
+          <EntitySet Name="Picture" EntityType="bywhoModel.Picture" />
+          <AssociationSet Name="FK_Picture_CartLines_CartLineId" Association="bywhoModel.FK_Picture_CartLines_CartLineId">
+            <End Role="CartLines" EntitySet="CartLines" />
+            <End Role="Picture" EntitySet="Picture" />
+          </AssociationSet>
+          <EntitySet Name="Customercarts" EntityType="bywhoModel.Customercarts" />
+          <AssociationSet Name="FK_Customercarts_Customers_CustomerId" Association="bywhoModel.FK_Customercarts_Customers_CustomerId">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="Customercarts" EntitySet="Customercarts" />
+          </AssociationSet>
+          <EntitySet Name="Materials" EntityType="bywhoModel.Materials" />
+        </EntityContainer>
+        <EntityType Name="Resources">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Value" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="CartLines">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="CustomerId" Type="Guid" />
+          <Property Name="Price" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Comments" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Created" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="StyleId" Type="Guid" />
+          <Property Name="SizeId" Type="Int32" />
+          <Property Name="Quantity" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Customers" Relationship="bywhoModel.FK_CartLines_Customers_CustomerId" FromRole="CartLines" ToRole="Customers" />
+          <NavigationProperty Name="Styles" Relationship="bywhoModel.FK_CartLines_Styles_StyleId" FromRole="CartLines" ToRole="Styles" />
+          <NavigationProperty Name="Sizes" Relationship="bywhoModel.FK_CartLines_Sizes_SizeId" FromRole="CartLines" ToRole="Sizes" />
+          <NavigationProperty Name="Picture" Relationship="bywhoModel.FK_Picture_CartLines_CartLineId" FromRole="CartLines" ToRole="Picture" />
+        </EntityType>
+        <EntityType Name="Customers">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="HouseNo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Zipcode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="City" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Phone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Guest" Type="Boolean" Nullable="false" />
+          <Property Name="Created" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="Updated" Type="DateTime" Nullable="false" Precision="7" />
+          <NavigationProperty Name="CartLines" Relationship="bywhoModel.FK_CartLines_Customers_CustomerId" FromRole="Customers" ToRole="CartLines" />
+          <NavigationProperty Name="Customercarts" Relationship="bywhoModel.FK_Customercarts_Customers_CustomerId" FromRole="Customers" ToRole="Customercarts" />
+        </EntityType>
+        <Association Name="FK_CartLines_Customers_CustomerId">
+          <End Type="bywhoModel.Customers" Role="Customers" Multiplicity="0..1" />
+          <End Type="bywhoModel.CartLines" Role="CartLines" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CartLines">
+              <PropertyRef Name="CustomerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CartLines_Styles_StyleId">
+          <End Type="bywhoModel.Styles" Role="Styles" Multiplicity="0..1" />
+          <End Type="bywhoModel.CartLines" Role="CartLines" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Styles">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CartLines">
+              <PropertyRef Name="StyleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Sizes">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Price" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="Height" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="Width" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="SizeType" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="CartLines" Relationship="bywhoModel.FK_CartLines_Sizes_SizeId" FromRole="Sizes" ToRole="CartLines" />
+        </EntityType>
+        <Association Name="FK_CartLines_Sizes_SizeId">
+          <End Type="bywhoModel.Sizes" Role="Sizes" Multiplicity="0..1" />
+          <End Type="bywhoModel.CartLines" Role="CartLines" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sizes">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CartLines">
+              <PropertyRef Name="SizeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Picture">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Guid" Nullable="false" />
+          <Property Name="Path" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="CartLineId" Type="Guid" />
+          <Property Name="OrderLineId" Type="Guid" />
+          <NavigationProperty Name="CartLines" Relationship="bywhoModel.FK_Picture_CartLines_CartLineId" FromRole="Picture" ToRole="CartLines" />
+        </EntityType>
+        <Association Name="FK_Picture_CartLines_CartLineId">
+          <End Type="bywhoModel.CartLines" Role="CartLines" Multiplicity="0..1" />
+          <End Type="bywhoModel.Picture" Role="Picture" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CartLines">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Picture">
+              <PropertyRef Name="CartLineId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Customercarts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CustomerId" Type="Guid" />
+          <NavigationProperty Name="Customers" Relationship="bywhoModel.FK_Customercarts_Customers_CustomerId" FromRole="Customercarts" ToRole="Customers" />
+        </EntityType>
+        <Association Name="FK_Customercarts_Customers_CustomerId">
+          <End Type="bywhoModel.Customers" Role="Customers" Multiplicity="0..1" />
+          <End Type="bywhoModel.Customercarts" Role="Customercarts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Customercarts">
+              <PropertyRef Name="CustomerId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Materials">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Picture" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Published" Type="Boolean" Nullable="false" />
+          <Property Name="NoFollow" Type="Boolean" Nullable="false" />
+          <Property Name="SeName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SeoDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SeoKeywords" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SeoTitle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="bywhoModelStoreContainer" CdmEntityContainer="bywhoEntities">
+          <EntitySetMapping Name="Styles">
+            <EntityTypeMapping TypeName="bywhoModel.Styles">
+              <MappingFragment StoreEntitySet="Styles">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="OldPrice" ColumnName="OldPrice" />
+                <ScalarProperty Name="B2BPrice" ColumnName="B2BPrice" />
+                <ScalarProperty Name="Picture" ColumnName="Picture" />
+                <ScalarProperty Name="AmountOfPictures" ColumnName="AmountOfPictures" />
+                <ScalarProperty Name="Published" ColumnName="Published" />
+                <ScalarProperty Name="Created" ColumnName="Created" />
+                <ScalarProperty Name="SortOrder" ColumnName="SortOrder" />
+                <ScalarProperty Name="NoFollow" ColumnName="NoFollow" />
+                <ScalarProperty Name="SeoDescription" ColumnName="SeoDescription" />
+                <ScalarProperty Name="SeoKeywords" ColumnName="SeoKeywords" />
+                <ScalarProperty Name="SeoTitle" ColumnName="SeoTitle" />
+                <ScalarProperty Name="SeName" ColumnName="SeName" />
+                <ScalarProperty Name="HasText" ColumnName="HasText" />
+                <ScalarProperty Name="Poster" ColumnName="Poster" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Topic">
+            <EntityTypeMapping TypeName="bywhoModel.Topic">
+              <MappingFragment StoreEntitySet="Topic">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="SystemName" ColumnName="SystemName" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="BodyTekst" ColumnName="BodyTekst" />
+                <ScalarProperty Name="IsPage" ColumnName="IsPage" />
+                <ScalarProperty Name="SeoTitle" ColumnName="SeoTitle" />
+                <ScalarProperty Name="SeoDescription" ColumnName="SeoDescription" />
+                <ScalarProperty Name="SeoKeywords" ColumnName="SeoKeywords" />
+                <ScalarProperty Name="NoFollow" ColumnName="NoFollow" />
+                <ScalarProperty Name="SubpageId" ColumnName="SubpageId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Resources">
+            <EntityTypeMapping TypeName="bywhoModel.Resources">
+              <MappingFragment StoreEntitySet="Resources">
+                <ScalarProperty Name="Value" ColumnName="Value" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CartLines">
+            <EntityTypeMapping TypeName="bywhoModel.CartLines">
+              <MappingFragment StoreEntitySet="CartLines">
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="SizeId" ColumnName="SizeId" />
+                <ScalarProperty Name="StyleId" ColumnName="StyleId" />
+                <ScalarProperty Name="Created" ColumnName="Created" />
+                <ScalarProperty Name="Comments" ColumnName="Comments" />
+                <ScalarProperty Name="Text" ColumnName="Text" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Customers">
+            <EntityTypeMapping TypeName="bywhoModel.Customers">
+              <MappingFragment StoreEntitySet="Customers">
+                <ScalarProperty Name="Updated" ColumnName="Updated" />
+                <ScalarProperty Name="Created" ColumnName="Created" />
+                <ScalarProperty Name="Guest" ColumnName="Guest" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Phone" ColumnName="Phone" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="Zipcode" ColumnName="Zipcode" />
+                <ScalarProperty Name="HouseNo" ColumnName="HouseNo" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sizes">
+            <EntityTypeMapping TypeName="bywhoModel.Sizes">
+              <MappingFragment StoreEntitySet="Sizes">
+                <ScalarProperty Name="SizeType" ColumnName="SizeType" />
+                <ScalarProperty Name="Width" ColumnName="Width" />
+                <ScalarProperty Name="Height" ColumnName="Height" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Picture">
+            <EntityTypeMapping TypeName="bywhoModel.Picture">
+              <MappingFragment StoreEntitySet="Picture">
+                <ScalarProperty Name="OrderLineId" ColumnName="OrderLineId" />
+                <ScalarProperty Name="CartLineId" ColumnName="CartLineId" />
+                <ScalarProperty Name="Path" ColumnName="Path" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Customercarts">
+            <EntityTypeMapping TypeName="bywhoModel.Customercarts">
+              <MappingFragment StoreEntitySet="Customercarts">
+                <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Materials">
+            <EntityTypeMapping TypeName="bywhoModel.Materials">
+              <MappingFragment StoreEntitySet="Materials">
+                <ScalarProperty Name="SeoTitle" ColumnName="SeoTitle" />
+                <ScalarProperty Name="SeoKeywords" ColumnName="SeoKeywords" />
+                <ScalarProperty Name="SeoDescription" ColumnName="SeoDescription" />
+                <ScalarProperty Name="SeName" ColumnName="SeName" />
+                <ScalarProperty Name="NoFollow" ColumnName="NoFollow" />
+                <ScalarProperty Name="Published" ColumnName="Published" />
+                <ScalarProperty Name="Picture" ColumnName="Picture" />
+                <ScalarProperty Name="Text" ColumnName="Text" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,20 @@
+﻿@inject ResourceHelper rh
+@{
+    ViewData["Title"] = await rh.GetResource("DesignRequest.HeaderText");
+}
+
+<design-request email-text="@(await rh.GetResource("DesignRequest.EmailText"))"
+                phone-text="@(await rh.GetResource("DesignRequest.PhoneText"))"
+                header-text="@(await rh.GetResource("DesignRequest.HeaderText"))"
+                paragraph-one="@(await rh.GetResource("DesignRequest.Paragraph1Text"))"
+                paragraph-two="@(await rh.GetResource("DesignRequest.Paragraph2Text"))"
+                size-text="@(await rh.GetResource("DesignRequest.SizeText"))"
+                product-text="@(await rh.GetResource("DesignRequest.ProductText"))"
+                style-text="@(await rh.GetResource("DesignRequest.StyleText"))"
+                picture-text="@(await rh.GetResource("DesignRequest.PictureText"))"
+                text-label="@(await rh.GetResource("DesignRequest.TextLabel"))"
+                comment-text="@(await rh.GetResource("DesignRequest.CommentText"))"
+                upload-text="@(await rh.GetResource("DesignRequest.UploadText"))"
+                thanks-header="@(await rh.GetResource("DesignRequest.ThanksHeader"))"
+                thanks-text="@(await rh.GetResource("DesignRequest.ThanksText"))" />
+
