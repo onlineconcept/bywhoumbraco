@@ -4,4 +4,5 @@
 /Dev/DataLayer/bin/
 /Dev/BusinessLayer/obj/
 /Dev/BusinessLayer/bin/
-/ByWhoTestUmbraco
+/ByWhoTestUmbraco/bin/
+/ByWhoTestUmbraco/obj/
