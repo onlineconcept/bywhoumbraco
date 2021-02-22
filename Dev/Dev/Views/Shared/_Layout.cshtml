@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    @*<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="529a80b3-502e-4e38-8aef-0f4976a0a04d" data-blockingmode="auto" type="text/javascript"></script>*@
+
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
     <title>@ViewData["Title"]</title>
     <meta name="description" content="@ViewData["description"]" />
     <meta name="keywords" content="@ViewData["keywords"]" />
@@ -21,13 +21,12 @@
     <environment exclude="Development">
         <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' rel="stylesheet">
         <link href="~/css/styles.css?v=1" rel="stylesheet" />
-    </environment> 
-    @RenderSection("Styles",false);
-    <script id="CookieDeclaration" src="https://consent.cookiebot.com/529a80b3-502e-4e38-8aef-0f4976a0a04d/cd.js" type="text/javascript" async></script>
+    </environment>
+    @RenderSection("Styles", false);
 </head>
 <body>
     <div oc-app :labels="@(await rh.GetAllResources())" v-cloak>
-        <page-wrap >
+        <page-wrap>
 
 
             <div class="top-space"></div>
@@ -68,7 +67,7 @@
                         <div>
                             <img src="https://bywho.dk/content/images/mp.png" style="width:100%; margin-left: -35px;" />
                         </div>
-                        
+
                     </v-flex>
                     <v-flex lg2 xs12 offset-lg1>
                         <h2>Kontakt</h2>
@@ -116,17 +115,6 @@
         </script>
         <!--End of Zopim Live Chat Script-->*@
 
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/5ecb6c0d8ee2956d73a441be/default';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
 
     @RenderSection("Scripts", required: false)
 </body>

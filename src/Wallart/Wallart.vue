@@ -1,6 +1,6 @@
 <script>
   import {StyleService} from "../Services/StylesService";
-  import { isMobile } from 'mobile-device-detect';
+  //import { isMobile } from 'mobile-device-detect';
   export default {
 	name: "wallart",
     props:{
@@ -61,7 +61,7 @@
 		  return this.$refs.slider.clientWidth;
         },
         isMobileDevice(){
-			return isMobile
+			return true
         }
     },
     methods:{

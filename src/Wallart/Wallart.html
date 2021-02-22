@@ -15,9 +15,7 @@
                 </div>
                 <div class="wallart__banner__image">
                     <img :src="imageUrl"  v-if="windowWidth > 640"/>
-                    <div v-html="bannerTextMobile" v-if="windowWidth < 640" class="wallart__banner__image__text" style="background: rgba(255,255,255,0.6);">
-                        Tag et billede af din væg nu eller hent i galleri…
-                    </div>
+                    <div v-html="bannerTextMobile" v-if="windowWidth < 640" class="wallart__banner__image__text" style="background: rgba(255,255,255,0.6);"></div>
                 </div>
                 <input type="file" @change="fileUploaded" v-if="windowWidth < 640" style="margin-top:20px;">
             </div>

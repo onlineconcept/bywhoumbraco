@@ -10,3 +10,15 @@ C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\obj\Release\DataL
 C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.pdb
 C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.csprojAssemblyReference.cache
 C:\Users\malka\Desktop\vue\bywhovue\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.csproj.CoreCompileInputs.cache
+C:\programmering\Rasmus\bywhoumbraco\ByWhoTestUmbraco\DataLayer\bin\Release\DataLayer.dll.config
+C:\programmering\Rasmus\bywhoumbraco\ByWhoTestUmbraco\DataLayer\bin\Release\DataLayer.dll
+C:\programmering\Rasmus\bywhoumbraco\ByWhoTestUmbraco\DataLayer\bin\Release\DataLayer.pdb
+C:\programmering\Rasmus\bywhoumbraco\ByWhoTestUmbraco\DataLayer\bin\Release\EntityFramework.dll
+C:\programmering\Rasmus\bywhoumbraco\ByWhoTestUmbraco\DataLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\programmering\Rasmus\bywhoumbraco\ByWhoTestUmbraco\DataLayer\bin\Release\EntityFramework.xml
+C:\programmering\Rasmus\bywhoumbraco\ByWhoTestUmbraco\DataLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\programmering\Rasmus\bywhoumbraco\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.csprojAssemblyReference.cache
+C:\programmering\Rasmus\bywhoumbraco\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.csproj.CoreCompileInputs.cache
+C:\programmering\Rasmus\bywhoumbraco\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.csproj.CopyComplete
+C:\programmering\Rasmus\bywhoumbraco\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.dll
+C:\programmering\Rasmus\bywhoumbraco\ByWhoTestUmbraco\DataLayer\obj\Release\DataLayer.pdb

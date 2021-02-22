@@ -12,7 +12,7 @@ module.exports = {
     rules: [
       {
         test: /.js$/,
-        exclude: /node_modules/,
+        exclude: ["/node_modules/","/Dev", "/ByWhoTestUmbraco"],
         use: {
           loader: "babel-loader"
         }
@@ -21,14 +21,14 @@ module.exports = {
         test: /.vue$/,
         loader: "vue-loader"
       },
-      {
-        test: /\.scss$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          "css-loader", // translates CSS into CommonJS
-          "sass-loader"
-        ]
-      }
+        {
+            test: /\.scss$/,
+            use: [
+                MiniCssExtractPlugin.loader,
+                "css-loader", // translates CSS into CommonJS
+                "sass-loader"
+            ]
+        }
     ]
   },
   resolve: {

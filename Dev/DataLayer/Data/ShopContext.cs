@@ -24,11 +24,8 @@ namespace DataLayer.Data
         public DbSet<Style> Styles { get; set; }
         public DbSet<Topic> Topic { get; set; }
         public DbSet<User> Users { get; set; }
-<<<<<<< HEAD
         public DbSet<CustomerCart> Customercarts {get;set;}
         public DbSet<Material> Materials {get;set;}
-=======
->>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
         public DbSet<Resource> Resources { get; set; }
     }
 }

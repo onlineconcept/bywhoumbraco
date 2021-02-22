@@ -11,12 +11,9 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_ViewDialogWidth>600</WebStackScaffolding_ViewDialogWidth>
-<<<<<<< HEAD
     <NameOfLastUsedPublishProfile>Default Settings</NameOfLastUsedPublishProfile>
     <View_SelectedScaffolderID>RazorViewScaffolder</View_SelectedScaffolderID>
     <View_SelectedScaffolderCategoryPath>root/View</View_SelectedScaffolderCategoryPath>
-=======
     <NameOfLastUsedPublishProfile>FolderProfile2</NameOfLastUsedPublishProfile>
->>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
   </PropertyGroup>
 </Project>

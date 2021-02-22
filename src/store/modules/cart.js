@@ -63,17 +63,15 @@ export default {
         return context.commit("SET_CARTLINES",data);
       });
     },
-<<<<<<< HEAD
-    async updateCustomer({state}, payload) {
-
-      axios.post("/cart/updatecustomer", {customer: payload ? payload:state.customer, customerId: state.customerId});
-=======
+    // async updateCustomer({state}, payload) {
+    //   axios.post("/cart/updatecustomer", {customer: payload ? payload : state.customer, customerId: state.customerId});
+    // },
     async updateCustomer(context){
       await axios.post(`/cart/updatecustomer`,{
         customerId: context.state.customerId,
         customer: context.state.customer
       });
->>>>>>> 8de6f2e2c83ad2cca316a4f5f82c84b059351f82
+
     },
     createCart(context){
       axios.post("/cart/createcart").then(({data})=>{
