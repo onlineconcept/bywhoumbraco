@@ -23,8 +23,8 @@
     </environment>
 </head>
 <body>
-    <div oc-app  v-cloak>
-        <page-wrap :checkout="true" :resources="@(await rh.GetAllResources())">
+    <div oc-app  v-cloak :labels="@(await rh.GetAllResources())">
+        <page-wrap :checkout="true" >
             @RenderBody()
         </page-wrap>
     </div>

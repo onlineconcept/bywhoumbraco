@@ -15,3 +15,36 @@
 .secondColumn{
   border:none;
 }
+.upload-example-cropper {
+  border: solid 1px #EEE;
+  height: 300px;
+  width: 100%;
+}
+.cropper{
+  height:700px;
+  @media screen and (max-width: 450px){
+    height:400px;
+  }
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+.button {
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  background: #3fb37f;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.button:hover {
+  background: #38d890;
+}
+
+.button input {
+  display: none;
+}

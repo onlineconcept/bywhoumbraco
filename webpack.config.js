@@ -22,13 +22,31 @@ module.exports = {
         loader: "vue-loader"
       },
         {
-            test: /\.scss$/,
+            test: /\.s[ac]ss$/,
             use: [
                 MiniCssExtractPlugin.loader,
                 "css-loader", // translates CSS into CommonJS
                 "sass-loader"
             ]
-        }
+        },
+      {
+        test: /\.css$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          "css-loader"
+        ]
+      },
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: 'svg-url-loader',
+            options: {
+              limit: 10000,
+            },
+          },
+        ],
+      },
     ]
   },
   resolve: {

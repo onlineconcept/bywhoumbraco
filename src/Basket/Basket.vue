@@ -54,6 +54,7 @@
       },
       gotoPayment(){
 	    let error = [];
+	    console.log(this.customer.firstname.trim().length)
 	    if(this.customer.firstname.trim().length === 0 || this.customer.firstname.trim().length > 30)
         {
           error.push("Fornavn skal udfyldes og må ikke være over 30 tegn.");
@@ -86,7 +87,7 @@
 		  error.push("Din email er ikke indtastet korrekt");
         }
 		if(error.length === 0) {
-		  localStorage.setItem("customerInfo",JSON.stringify(this.customer));
+      localStorage.setItem("customerInfo",JSON.stringify(this.customer));
 		  window.location.href = "/checkout/payment";
 		}else{
 		  this.$store.commit("cart/SET_FORM_ERROR", error);
